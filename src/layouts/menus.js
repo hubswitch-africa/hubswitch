@@ -42,11 +42,9 @@ const Home = (
       <li>
         <Link href="/about">About</Link>
       </li>
+      
       <li>
-        <Link href="/company-overview">Company Overview</Link>
-      </li>
-      <li>
-        <Link href="/team-member">Team Member</Link>
+        <Link href="/team-member">Team</Link>
       </li>
       <li>
         <Link href="/pricing">Pricing</Link>

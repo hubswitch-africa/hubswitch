@@ -1,0 +1,8 @@
+/.next
+
+package-lock.json
+/node_modules
+/out
+/build
+.env
+npm

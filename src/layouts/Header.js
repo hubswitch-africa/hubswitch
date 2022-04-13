@@ -25,13 +25,13 @@ const Header = ({ transparentTop, transparentHeader, topSecondaryBg }) => {
               <ul className="contact-info">
                 <li>
                   <a href="#">
-                    <i className="far fa-envelope" /> support@gmail.com
+                    <i className="far fa-envelope" /> hubswitchafrica@gmail.com
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <i className="far fa-map-marker-alt" /> 250 Main Street, 2nd
-                    Floor, USA
+                    <i className="far fa-map-marker-alt" /> 
+                    Metaverse
                   </a>
                 </li>
               </ul>
@@ -84,7 +84,7 @@ const Header = ({ transparentTop, transparentHeader, topSecondaryBg }) => {
                   </a>
                   <ul className="submenu">{Home}</ul>
                 </li>
-                <li>
+                {/* <li>
                   <a href="#">
                     Project
                     <span className="dd-trigger">
@@ -92,7 +92,7 @@ const Header = ({ transparentTop, transparentHeader, topSecondaryBg }) => {
                     </span>
                   </a>
                   <ul className="submenu">{Project}</ul>
-                </li>
+                </li> */}
                 <li>
                   <Link href="/events">
                     <a>Events</a>
