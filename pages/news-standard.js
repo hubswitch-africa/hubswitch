@@ -33,7 +33,7 @@ const NewsStandard = () => {
                       <li>
                         <a href="#">
                           <i className="far fa-user-circle" />
-                          Funden
+                          Hubswitch
                         </a>
                       </li>
                       <li>
@@ -74,7 +74,7 @@ const NewsStandard = () => {
                       <li>
                         <a href="#">
                           <i className="far fa-user-circle" />
-                          Funden
+                          Hubswitch
                         </a>
                       </li>
                       <li>
@@ -108,7 +108,7 @@ const NewsStandard = () => {
                       <li>
                         <a href="#">
                           <i className="far fa-user-circle" />
-                          Funden
+                          Hubswitch
                         </a>
                       </li>
                       <li>
@@ -142,7 +142,7 @@ const NewsStandard = () => {
                       <li>
                         <a href="#">
                           <i className="far fa-user-circle" />
-                          Funden
+                          Hubswitch
                         </a>
                       </li>
                       <li>
@@ -173,7 +173,7 @@ const NewsStandard = () => {
                       <li>
                         <a href="#">
                           <i className="far fa-user-circle" />
-                          Funden
+                          Hubswitch
                         </a>
                       </li>
                       <li>

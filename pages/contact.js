@@ -5,7 +5,7 @@ import Layout from "../src/layouts/Layout";
 const Contact = () => {
   return (
     <Layout>
-      <PageBanner pageName="Contact Us" />
+      <PageBanner pageName="Apply" />
       <section className="contact-section section-gap-extra-bottom">
         <div className="container">
           {/* Contact Info Start */}
@@ -44,7 +44,7 @@ const Contact = () => {
                       </div>
                       <div className="info-content">
                         <h5>Our Location</h5>
-                        <p>5075 Main Road, D- Block, 2nd Floor, New York</p>
+                        <p>Metaverse</p>
                       </div>
                     </div>
                     <div
@@ -57,8 +57,8 @@ const Contact = () => {
                       <div className="info-content">
                         <h5>Email Address</h5>
                         <p>
-                          supportinfo@gmail.com <br />
-                          www.funden.com
+                          hubswitchafrica@gmail.com <br />
+                          www.hubswitch.org
                         </p>
                       </div>
                     </div>

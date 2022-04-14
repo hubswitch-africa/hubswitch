@@ -37,7 +37,7 @@ const Footer = ({ footerSolidBg }) => {
               <div className="col-xl-3 col-lg-4 col-md-6">
                 <div className="widget about-widget">
                   <div className="footer-logo">
-                    <img src="assets/img/logo-white.png" alt="Funden" />
+                    <img src="assets/img/logo-white.png" alt="Hubswitch" />
                   </div>
                   <p>
                     Sed ut perspiciatis unde omn iste natus error sit voluptatem
@@ -119,7 +119,7 @@ const Footer = ({ footerSolidBg }) => {
                       </span>
                       <span className="info">
                         <span className="info-title">Email Address</span>
-                        <a href="#">support@gmail.com</a>
+                        <a href="#">hubswitchafrica@gmail.com</a>
                       </span>
                     </li>
                     <li>
@@ -128,7 +128,7 @@ const Footer = ({ footerSolidBg }) => {
                       </span>
                       <span className="info">
                         <span className="info-title">Locations</span>
-                        <a href="#">59 Main Street, USA</a>
+                        <a href="#">Metaverse</a>
                       </span>
                     </li>
                   </ul>
@@ -169,7 +169,7 @@ const Footer = ({ footerSolidBg }) => {
               </div>
               <div className="col-md-6">
                 <p className="copyright-text">
-                  © {new Date().getFullYear()} <a href="#">Funden</a>. All
+                  © {new Date().getFullYear()} <a href="#">Hubswitch</a>. All
                   Rights Reserved
                 </p>
               </div>

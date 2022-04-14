@@ -1,5 +1,5 @@
 import Link from "next/dist/client/link";
-import { useEffect } from "react";
+import { useEffect, Fragment } from "react";
 import { stickyNav } from "../utils";
 import { Home, News, Pages, Project } from "./menus";
 
@@ -25,13 +25,13 @@ const Header = ({ transparentTop, transparentHeader, topSecondaryBg }) => {
               <ul className="contact-info">
                 <li>
                   <a href="#">
-                    <i className="far fa-envelope" /> support@gmail.com
+                    <i className="far fa-envelope" /> hubswitchafrica@gmail.com
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <i className="far fa-map-marker-alt" /> 250 Main Street, 2nd
-                    Floor, USA
+                    <i className="far fa-map-marker-alt" /> 
+                    Metaverse
                   </a>
                 </li>
               </ul>
@@ -69,29 +69,16 @@ const Header = ({ transparentTop, transparentHeader, topSecondaryBg }) => {
             <div className="site-logo">
               <Link href="/">
                 <a>
-                  <img src="assets/img/logo.png" alt="Funden" />
+                  <img src="assets/img/logo.png" alt="Hubswitch" />
                 </a>
               </Link>
             </div>
             <div className="nav-menu" id="menu">
               <ul>
                 <li>
-                  <a href="#">
+                  <Link href="/index-2">
                     Home
-                    <span className="dd-trigger">
-                      <i className="far fa-angle-down" />
-                    </span>
-                  </a>
-                  <ul className="submenu">{Home}</ul>
-                </li>
-                <li>
-                  <a href="#">
-                    Project
-                    <span className="dd-trigger">
-                      <i className="far fa-angle-down" />
-                    </span>
-                  </a>
-                  <ul className="submenu">{Project}</ul>
+                  </Link>
                 </li>
                 <li>
                   <Link href="/events">
@@ -117,12 +104,12 @@ const Header = ({ transparentTop, transparentHeader, topSecondaryBg }) => {
                   <ul className="submenu">{Pages}</ul>
                 </li>
                 <li>
-                  <Link href="/contact">Contact</Link>
+                  <Link href="/contact">Apply</Link>
                 </li>
               </ul>
             </div>
             <div className="navbar-extra d-flex align-items-center">
-              <Link href="/events">
+              <Link href="/donate">
                 <a className="main-btn nav-btn d-none d-sm-inline-block">
                   Donate Now <i className="far fa-arrow-right" />
                 </a>

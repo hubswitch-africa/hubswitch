@@ -1003,7 +1003,7 @@ const Index = () => {
                   </p>
                   <Link href="/events">
                     <a className="main-btn">
-                      Start a Funden <i className="far fa-arrow-right" />
+                      Start a Hubswitch <i className="far fa-arrow-right" />
                     </a>
                   </Link>
                 </div>
@@ -1019,7 +1019,7 @@ const Index = () => {
                   </p>
                   <Link href="/events">
                     <a className="main-btn">
-                      Start a Funden <i className="far fa-arrow-right" />
+                      Start a Hubswitch <i className="far fa-arrow-right" />
                     </a>
                   </Link>
                 </div>
