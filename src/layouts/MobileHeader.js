@@ -76,7 +76,7 @@ const MobileHeader = ({
             <div className="site-logo">
               <Link href="/">
                 <a>
-                  <img src="assets/img/logo.png" alt="Funden" />
+                  <img src="assets/img/logo.png" alt="Hubswitch" />
                 </a>
               </Link>
             </div>
@@ -101,7 +101,7 @@ const MobileHeader = ({
         <div className="panel-logo">
           <Link href="/">
             <a>
-              <img src="assets/img/logo-white.png" alt="Funden" />
+              <img src="assets/img/logo-white.png" alt="Hubswitch" />
             </a>
           </Link>
         </div>

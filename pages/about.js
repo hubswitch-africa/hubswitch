@@ -178,7 +178,7 @@ const About = () => {
           </div>
         </div>
         <div className="container-fluid fluid-extra-padding">
-          <Slider {...teamSlider} className="row team-members team-slider">
+          <Slider {...teamSlider} className="row teams team-slider">
             <div className="col">
               <div className="member-box">
                 <div className="member-photo">

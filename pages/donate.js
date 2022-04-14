@@ -2,18 +2,18 @@ import Link from "next/dist/client/link";
 import PageBanner from "../src/components/PageBanner";
 import Layout from "../src/layouts/Layout";
 
-const Pricing = () => {
+const Donate = () => {
   return (
     <Layout>
-      <PageBanner pageName="Pricing" />
-      <section className="pricing-section section-gap-two primary-soft-bg">
+      <PageBanner pageName="Donate" />
+      <section className="donate-section section-gap-two primary-soft-bg">
         <div className="container">
-          <div className="row pricing-boxes justify-content-center">
+          <div className="row donate-boxes justify-content-center">
             <div
               className="col-lg-4 col-md-6 col-sm-10 wow fadeInUp"
               data-wow-delay="0s"
             >
-              <div className="pricing-box mb-30">
+              <div className="donate-box mb-30">
                 <h6 className="plan-name">Basic Plan</h6>
                 <div className="price">
                   <span className="currency">$</span>
@@ -36,11 +36,11 @@ const Pricing = () => {
                     <i className="fas fa-check" /> Hosted In The Cloud
                   </li>
                 </ul>
-                <a href="#" className="pricing-btn">
+                <a href="#" className="donate-btn">
                   Select Plan <i className="fas fa-arrow-right" />
                 </a>
                 <div className="plan-shape">
-                  <img src="assets/img/pricing-shape.png" alt="shape" />
+                  <img src="assets/img/donate-shape.png" alt="shape" />
                 </div>
               </div>
             </div>
@@ -48,7 +48,7 @@ const Pricing = () => {
               className="col-lg-4 col-md-6 col-sm-10 wow fadeInUp"
               data-wow-delay="0.1s"
             >
-              <div className="pricing-box featured-plan mb-30">
+              <div className="donate-box featured-plan mb-30">
                 <h6 className="plan-name">popular Plan</h6>
                 <div className="price">
                   <span className="currency">$</span>
@@ -71,11 +71,11 @@ const Pricing = () => {
                     <i className="fas fa-check" /> Hosted In The Cloud
                   </li>
                 </ul>
-                <a href="#" className="pricing-btn">
+                <a href="#" className="donate-btn">
                   Select Plan <i className="fas fa-arrow-right" />
                 </a>
                 <div className="plan-shape">
-                  <img src="assets/img/pricing-shape.png" alt="shape" />
+                  <img src="assets/img/donate-shape.png" alt="shape" />
                 </div>
                 <span className="plan-tag">Save 45%</span>
               </div>
@@ -84,7 +84,7 @@ const Pricing = () => {
               className="col-lg-4 col-md-6 col-sm-10 wow fadeInUp"
               data-wow-delay="0.2s"
             >
-              <div className="pricing-box mb-30">
+              <div className="donate-box mb-30">
                 <h6 className="plan-name">premium Plan</h6>
                 <div className="price">
                   <span className="currency">$</span>
@@ -107,18 +107,18 @@ const Pricing = () => {
                     <i className="fas fa-check" /> Hosted In The Cloud
                   </li>
                 </ul>
-                <a href="#" className="pricing-btn">
+                <a href="#" className="donate-btn">
                   Select Plan <i className="fas fa-arrow-right" />
                 </a>
                 <div className="plan-shape">
-                  <img src="assets/img/pricing-shape.png" alt="shape" />
+                  <img src="assets/img/donate-shape.png" alt="shape" />
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      {/*====== Pricing Area End ======*/}
+      {/*====== Donate Area End ======*/}
       {/*====== Latest News Start ======*/}
       <section className="latest-blog-section section-gap-extra-bottom">
         <div className="container">
@@ -206,4 +206,4 @@ const Pricing = () => {
   );
 };
 
-export default Pricing;
+export default Donate;

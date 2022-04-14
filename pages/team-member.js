@@ -6,9 +6,9 @@ const TeamMember = () => {
   return (
     <Layout>
       <PageBanner pageName="Team Member" />
-      <section className="team-member-area section-gap-extra-bottom">
+      <section className="team-area section-gap-extra-bottom">
         <div className="container">
-          <div className="row team-members justify-content-center">
+          <div className="row teams justify-content-center">
             <div className="col-lg-4 col-md-6 col-sm-9">
               <div className="member-box mb-30">
                 <div className="member-photo">

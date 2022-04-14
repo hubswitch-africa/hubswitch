@@ -6,6 +6,7 @@ import VideoPopup from "../src/components/VideoPopup";
 import Layout from "../src/layouts/Layout";
 import { imageTextBlockSlider } from "../src/sliderProps";
 
+
 const Index2 = () => {
   const [video, setVideo] = useState(false);
   return (
@@ -789,7 +790,7 @@ const Index2 = () => {
                   </p>
                   <Link href="/events">
                     <a className="main-btn btn-white">
-                      Start a Funden <i className="far fa-arrow-right" />
+                      Start a Hubswitch <i className="far fa-arrow-right" />
                     </a>
                   </Link>
                 </div>
@@ -806,7 +807,7 @@ const Index2 = () => {
                   </p>
                   <Link href="/events">
                     <a className="main-btn">
-                      Start a Funden <i className="far fa-arrow-right" />
+                      Start a Hubswitch <i className="far fa-arrow-right" />
                     </a>
                   </Link>
                 </div>

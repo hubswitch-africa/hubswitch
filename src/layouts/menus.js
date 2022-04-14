@@ -44,10 +44,10 @@ const Home = (
       </li>
       
       <li>
-        <Link href="/team-member">Team</Link>
+        <Link href="/team">Team</Link>
       </li>
       <li>
-        <Link href="/pricing">Pricing</Link>
+        <Link href="/donate">Donate</Link>
       </li>
       <li>
         <Link href="/testimonial">Testimonial</Link>

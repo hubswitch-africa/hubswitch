@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-    Template Name: Funden - Crowdfunding & Charity HTML Template
+    Template Name: Hubswitch - Crowdfunding & Charity HTML Template
     Template URI: https://webtend.net/demp/html/funden
     Author: WebTend
     Author URI:  https://webtend.net/
@@ -46,7 +46,7 @@
         ## Testimonials Section
     ## Call To Action
     ## Latest Blog
-    ## Funden Video
+    ## Hubswitch Video
     ## Image Text Block
     ## Check List
     ## Accordion
@@ -54,7 +54,7 @@
     ## Partners Logo
     ## Partners Section With CTA
     ## Team Member
-    ## Pricing
+    ## Donate
     ## Event Items
     ## About Section One
     ## About Gallery
@@ -3209,7 +3209,7 @@ a:hover {
 	border-color: transparent;
 }
 
-/*======= Funden Video =======*/
+/*======= Hubswitch Video =======*/
 .funden-video {
 	position: relative;
 	z-index: 1;
@@ -3545,17 +3545,17 @@ a:hover {
 }
 
 /*======= Team Member =======*/
-.team-members .member-box {
+.teams .member-box {
 	position: relative;
 	padding-bottom: 30px;
 	text-align: center;
 }
 
-.team-members .member-box .member-photo img {
+.teams .member-box .member-photo img {
 	width: 100%;
 }
 
-.team-members .member-box .member-info {
+.teams .member-box .member-info {
 	position: absolute;
 	bottom: 0;
 	left: 40px;
@@ -3566,19 +3566,19 @@ a:hover {
 	padding: 20px;
 }
 
-.team-members .member-box .member-info .name {
+.teams .member-box .member-info .name {
 	font-size: 22px;
 	margin-bottom: 5px;
 }
 
-.team-members .member-box .member-info .title {
+.teams .member-box .member-info .title {
 	font-size: 17px;
 	font-weight: 500;
 	color: var(--primary-color);
 	line-height: 1;
 }
 
-.team-members .member-box .member-info .social-links {
+.teams .member-box .member-info .social-links {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -3592,7 +3592,7 @@ a:hover {
 	display: none;
 }
 
-.team-members .member-box .member-info .social-links a {
+.teams .member-box .member-info .social-links a {
 	width: 35px;
 	height: 35px;
 	border-radius: 50%;
@@ -3611,7 +3611,7 @@ a:hover {
 	margin: 0 5px;
 }
 
-.team-members .member-box .member-info .social-links a:hover {
+.teams .member-box .member-info .social-links a:hover {
 	background-color: var(--primary-color);
 	color: var(--white);
 }
@@ -3625,8 +3625,8 @@ a:hover {
 	margin-bottom: 50px;
 }
 
-/*======= Pricing =======*/
-.pricing-box {
+/*======= Donate =======*/
+.donate-box {
 	padding: 55px;
 	background-color: var(--white);
 	position: relative;
@@ -3636,7 +3636,7 @@ a:hover {
 	transition: 0.4s;
 }
 
-.pricing-box .plan-name {
+.donate-box .plan-name {
 	font-size: 15px;
 	letter-spacing: 4px;
 	color: var(--primary-color);
@@ -3647,7 +3647,7 @@ a:hover {
 	transition: 0.3s;
 }
 
-.pricing-box .price {
+.donate-box .price {
 	font-size: 65px;
 	line-height: 1;
 	color: var(--secondary-color);
@@ -3664,14 +3664,14 @@ a:hover {
 	transition: 0.3s;
 }
 
-.pricing-box .price .currency {
+.donate-box .price .currency {
 	font-size: 24px;
 	margin-right: 10px;
 	position: relative;
 	top: 10px;
 }
 
-.pricing-box .plan-subtitle {
+.donate-box .plan-subtitle {
 	font-size: 17px;
 	font-weight: 500;
 	margin-bottom: 35px;
@@ -3681,7 +3681,7 @@ a:hover {
 	line-height: 1.5;
 }
 
-.pricing-box .plan-feature li {
+.donate-box .plan-feature li {
 	font-size: 17px;
 	line-height: 1.5;
 	-webkit-transition: 0.3s;
@@ -3689,7 +3689,7 @@ a:hover {
 	transition: 0.3s;
 }
 
-.pricing-box .plan-feature li i {
+.donate-box .plan-feature li i {
 	color: var(--primary-color);
 	font-size: 15px;
 	margin-right: 10px;
@@ -3698,15 +3698,15 @@ a:hover {
 	transition: 0.3s;
 }
 
-.pricing-box .plan-feature li.hidden-feature {
+.donate-box .plan-feature li.hidden-feature {
 	opacity: 0.3;
 }
 
-.pricing-box .plan-feature li:not(:last-child) {
+.donate-box .plan-feature li:not(:last-child) {
 	margin-bottom: 15px;
 }
 
-.pricing-box .pricing-btn {
+.donate-box .donate-btn {
 	margin-top: 35px;
 	background-color: #e5f6ee;
 	color: var(--secondary-color);
@@ -3720,11 +3720,11 @@ a:hover {
 	transition: 0.3s;
 }
 
-.pricing-box .pricing-btn i {
+.donate-box .donate-btn i {
 	margin-left: 5px;
 }
 
-.pricing-box .plan-shape {
+.donate-box .plan-shape {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -3737,7 +3737,7 @@ a:hover {
 	opacity: 0;
 }
 
-.pricing-box .plan-tag {
+.donate-box .plan-tag {
 	position: absolute;
 	top: 15px;
 	right: 15px;
@@ -3752,36 +3752,36 @@ a:hover {
 	padding: 8px 15px;
 }
 
-.pricing-box:hover,
-.pricing-box.featured-plan {
+.donate-box:hover,
+.donate-box.featured-plan {
 	background-color: var(--primary-color);
 }
 
-.pricing-box:hover .plan-name,
-.pricing-box:hover .price,
-.pricing-box:hover .plan-subtitle,
-.pricing-box:hover .plan-feature li,
-.pricing-box:hover .plan-feature li i,
-.pricing-box.featured-plan .plan-name,
-.pricing-box.featured-plan .price,
-.pricing-box.featured-plan .plan-subtitle,
-.pricing-box.featured-plan .plan-feature li,
-.pricing-box.featured-plan .plan-feature li i {
+.donate-box:hover .plan-name,
+.donate-box:hover .price,
+.donate-box:hover .plan-subtitle,
+.donate-box:hover .plan-feature li,
+.donate-box:hover .plan-feature li i,
+.donate-box.featured-plan .plan-name,
+.donate-box.featured-plan .price,
+.donate-box.featured-plan .plan-subtitle,
+.donate-box.featured-plan .plan-feature li,
+.donate-box.featured-plan .plan-feature li i {
 	color: var(--white);
 }
 
-.pricing-box:hover .plan-feature li.hidden-feature,
-.pricing-box.featured-plan .plan-feature li.hidden-feature {
+.donate-box:hover .plan-feature li.hidden-feature,
+.donate-box.featured-plan .plan-feature li.hidden-feature {
 	opacity: 0.4;
 }
 
-.pricing-box:hover .pricing-btn,
-.pricing-box.featured-plan .pricing-btn {
+.donate-box:hover .donate-btn,
+.donate-box.featured-plan .donate-btn {
 	color: var(--primary-color);
 }
 
-.pricing-box:hover .plan-shape,
-.pricing-box.featured-plan .plan-shape {
+.donate-box:hover .plan-shape,
+.donate-box.featured-plan .plan-shape {
 	opacity: 0.1;
 	visibility: visible;
 }

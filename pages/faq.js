@@ -22,7 +22,7 @@ const Faq = () => {
                         <Nav.Link eventKey="speakers">Speakers</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="pricing">Pricing</Nav.Link>
+                        <Nav.Link eventKey="donate">Donate</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey="support">Support</Nav.Link>
@@ -477,7 +477,7 @@ const Faq = () => {
                         </div>
                       </Accordion>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="pricing">
+                    <Tab.Pane eventKey="donate">
                       <Accordion className="accordion" eventKey="accordion-3-1">
                         <div className="accordion-item">
                           <Accordion.Toggle

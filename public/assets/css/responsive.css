@@ -108,20 +108,20 @@
 	}
 
     /*======= Team Member =======*/
-	.team-members.team-slider .member-box .member-info {
+	.teams.team-slider .member-box .member-info {
 		left: 25px;
 		right: 25px;
 	}
 
-	.team-members.team-slider .member-box .member-info .name {
+	.teams.team-slider .member-box .member-info .name {
 		font-size: 20px;
 	}
 
-	.team-members.team-slider .member-box .member-info .title {
+	.teams.team-slider .member-box .member-info .title {
 		font-size: 15px;
 	}
 
-	.team-members.team-slider .member-box .member-info .social-links a {
+	.teams.team-slider .member-box .member-info .social-links a {
 		margin: 0 3px;
 	}
 
@@ -254,7 +254,7 @@
 		font-size: 38px;
 	}
     /*======= Team Member =======*/
-	.team-members .member-box .member-info {
+	.teams .member-box .member-info {
 		left: 30px;
 		right: 30px;
 	}
@@ -282,12 +282,12 @@
 	.event-items .single-event-item {
 		padding: 40px 50px;
 	}
-    /*======= Pricing =======*/
-	.pricing-box {
+    /*======= Donate =======*/
+	.donate-box {
 		padding: 55px 35px;
 	}
 
-	.pricing-box .price {
+	.donate-box .price {
 		font-size: 55px;
 	}
 
@@ -1150,7 +1150,7 @@
 	.fancy-icon-list .fancy-list-item {
 		font-size: 14px;
 	}
-    /*======= Funden Video =======*/
+    /*======= Hubswitch Video =======*/
 	.funden-video.with-video-shape .video-shape {
 		max-width: 200px;
 		bottom: -60px;
@@ -1173,20 +1173,20 @@
 		width: 80px;
 	}
     /*======= Team Member =======*/
-	.team-members .member-box .member-info {
+	.teams .member-box .member-info {
 		left: 20px;
 		right: 20px;
 	}
 
-	.team-members .member-box .member-info .title {
+	.teams .member-box .member-info .title {
 		font-size: 15px;
 	}
 
-	.team-members .member-box .member-info .name {
+	.teams .member-box .member-info .name {
 		font-size: 20px;
 	}
 
-	.team-members .member-box .member-info .social-links a {
+	.teams .member-box .member-info .social-links a {
 		width: 30px;
 		height: 30px;
 		font-size: 12px;
@@ -1246,16 +1246,16 @@
 		margin-bottom: 10px;
 	}
 
-    /*======= Pricing =======*/
-	.pricing-box .price {
+    /*======= Donate =======*/
+	.donate-box .price {
 		font-size: 40px;
 	}
 
-	.pricing-box .plan-subtitle {
+	.donate-box .plan-subtitle {
 		font-size: 16px;
 	}
 
-	.pricing-box .plan-feature li {
+	.donate-box .plan-feature li {
 		font-size: 15px;
 	}
     /*======= FAQ Tabs =======*/
