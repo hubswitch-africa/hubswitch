@@ -37,7 +37,7 @@ const Footer = ({ footerSolidBg }) => {
               <div className="col-xl-3 col-lg-4 col-md-6">
                 <div className="widget about-widget">
                   <div className="footer-logo">
-                    <img src="assets/img/logo-white.png" alt="Hubswitch" />
+                    <img src="assets/img/logo.png" alt="Hubswitch" />
                   </div>
                   <p>
                     Sed ut perspiciatis unde omn iste natus error sit voluptatem
