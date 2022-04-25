@@ -117,7 +117,7 @@ const TeamMember = () => {
             <div className="col-lg-4 col-md-6 col-sm-9">
               <div className="member-box mb-30">
                 <div className="member-photo">
-                  <img src="assets/img/team/04.jpg" alt="Member" />
+                  <img src="assets/img/team/james.png" alt="Member" />
                 </div>
                 <div className="member-info">
                   <h5 className="name">
@@ -187,7 +187,7 @@ const TeamMember = () => {
             <div className="col-lg-4 col-md-6 col-sm-9">
               <div className="member-box mb-30">
                 <div className="member-photo">
-                  <img src="assets/img/team/simon1.jpg" alt="Member" />
+                  <img src="assets/img/team/simon2.jpg" alt="Member" />
                 </div>
                 <div className="member-info">
                   <h5 className="name">
@@ -222,7 +222,7 @@ const TeamMember = () => {
             <div className="col-lg-4 col-md-6 col-sm-9">
               <div className="member-box mb-30">
                 <div className="member-photo">
-                  <img src="assets/img/team/victor.jpg" alt="Member" />
+                  <img src="assets/img/team/victor2.jpg" alt="Member" />
                 </div>
                 <div className="member-info">
                   <h5 className="name">
@@ -258,7 +258,7 @@ const TeamMember = () => {
             <div className="col-lg-4 col-md-6 col-sm-9">
               <div className="member-box mb-30">
                 <div className="member-photo">
-                  <img src="assets/img/team/09.jpg" alt="Member" />
+                  <img src="assets/img/team/james.png" alt="Member" />
                 </div>
                 <div className="member-info">
                   <h5 className="name">
