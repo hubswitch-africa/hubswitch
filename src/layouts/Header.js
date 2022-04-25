@@ -22,7 +22,7 @@ const Header = ({ transparentTop, transparentHeader, topSecondaryBg }) => {
         <div className="container">
           <div className="row justify-content-between align-items-center">
             <div className="col-auto">
-              <ul className="contact-info">
+              <ul className="apply-info">
                 <li>
                   <a href="#">
                     <i className="far fa-envelope" /> hubswitchafrica@gmail.com
@@ -69,14 +69,14 @@ const Header = ({ transparentTop, transparentHeader, topSecondaryBg }) => {
             <div className="site-logo">
               <Link href="/">
                 <a>
-                  <img src="assets/img/logo.png" alt="Hubswitch" />
+                  <img src="assets/img/logo-trans.png" alt="Hubswitch" />
                 </a>
               </Link>
             </div>
             <div className="nav-menu" id="menu">
               <ul>
                 <li>
-                  <Link href="/index-2">
+                  <Link href="/">
                     Home
                   </Link>
                 </li>
@@ -104,7 +104,7 @@ const Header = ({ transparentTop, transparentHeader, topSecondaryBg }) => {
                   <ul className="submenu">{Pages}</ul>
                 </li>
                 <li>
-                  <Link href="/contact">Apply</Link>
+                  <Link href="/apply">Apply</Link>
                 </li>
               </ul>
             </div>

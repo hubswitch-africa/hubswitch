@@ -12,16 +12,17 @@ const Footer = ({ footerSolidBg }) => {
             <div className="row justify-content-lg-between justify-content-center align-items-center">
               <div className="col-lg-7 col-md-8 col-sm-10">
                 <span className="cta-tagline">
-                  25 Years Of Experience In Crowdfunding
+                Be a sponsor for our next event via a donation or partner with our organisation to reach more people in tech across africa
+
                 </span>
                 <h3 className="cta-title">
-                  Raise Hand to Promote Best Products
+                Be a Partner or Sponsor
                 </h3>
               </div>
               <div className="col-lg-auto col-md-6">
-                <Link href="/contact">
+                <Link href="/donate">
                   <a className="main-btn bordered-btn bordered-white mt-md-30">
-                    Promote Your Products <i className="far fa-arrow-right" />
+                    Donate <i className="far fa-arrow-right" />
                   </a>
                 </Link>
               </div>
@@ -37,7 +38,7 @@ const Footer = ({ footerSolidBg }) => {
               <div className="col-xl-3 col-lg-4 col-md-6">
                 <div className="widget about-widget">
                   <div className="footer-logo">
-                    <img src="assets/img/logo-white.png" alt="Hubswitch" />
+                    <img src="assets/img/logo-trans.png" alt="Hubswitch" />
                   </div>
                   <p>
                     Sed ut perspiciatis unde omn iste natus error sit voluptatem
@@ -86,7 +87,7 @@ const Footer = ({ footerSolidBg }) => {
                       <Link href="/about">Privacy Policy</Link>
                     </li>
                     <li>
-                      <Link href="/contact">Conditions</Link>
+                      <Link href="/apply">Conditions</Link>
                     </li>
                     <li>
                       <Link href="/company-overview">Company</Link>
@@ -95,13 +96,13 @@ const Footer = ({ footerSolidBg }) => {
                       <Link href="/faq">Faq &amp; Terms</Link>
                     </li>
                     <li>
-                      <Link href="/contact">Contact Us</Link>
+                      <Link href="/apply">Contact Us</Link>
                     </li>
                   </ul>
                 </div>
               </div>
               <div className="col-lg-auto col-md-5 col-sm-8">
-                <div className="widget contact-widget">
+                <div className="widget apply-widget">
                   <h4 className="widget-title">Contact Us</h4>
                   <ul className="info-list">
                     <li>

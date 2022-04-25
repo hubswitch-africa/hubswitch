@@ -34,7 +34,8 @@ export const activeNavMenu = (path) => {
   navItem.forEach((nav) => {
     if (nav.pathname === path) {
       if (!nav.href.includes("#")) {
-        if (nav.pathname === "/events" || nav.pathname === "/contact" || nav.pathname === "/index-2" || nav.pathname === "/index") {
+
+        if (nav.pathname === "/events" || nav.pathname === "/apply" || nav.pathname === "/") {
           nav.parentElement.className = "current";
         } else {
           // This applies to dropdowns in the navbar only

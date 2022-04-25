@@ -169,7 +169,7 @@ const About = () => {
               </div>
             </div>
             <div className="col-auto">
-              <Link href="/contact">
+              <Link href="/apply">
                 <a className="main-btn mb-40">
                   Join Our Team <i className="far fa-arrow-right" />
                 </a>

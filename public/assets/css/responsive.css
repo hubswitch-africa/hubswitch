@@ -107,7 +107,7 @@
 		right: -30px;
 	}
 
-    /*======= Team Member =======*/
+    /*======= Team =======*/
 	.teams.team-slider .member-box .member-info {
 		left: 25px;
 		right: 25px;
@@ -253,7 +253,7 @@
 	.image-text-block .common-heading .title {
 		font-size: 38px;
 	}
-    /*======= Team Member =======*/
+    /*======= Team =======*/
 	.teams .member-box .member-info {
 		left: 30px;
 		right: 30px;
@@ -647,11 +647,11 @@
 		margin-bottom: 30px;
 	}
     /*======= Footer =======*/
-	.footer-widgets .widget.contact-widget li .info-title {
+	.footer-widgets .widget.apply-widget li .info-title {
 		font-size: 15px;
 	}
 
-	.footer-widgets .widget.contact-widget li .info {
+	.footer-widgets .widget.apply-widget li .info {
 		font-size: 16px;
 	}
 
@@ -1172,7 +1172,7 @@
 		height: 80px;
 		width: 80px;
 	}
-    /*======= Team Member =======*/
+    /*======= Team =======*/
 	.teams .member-box .member-info {
 		left: 20px;
 		right: 20px;
@@ -1439,16 +1439,16 @@
 		margin-left: 25px;
 	}
     /*======= Contact =======*/
-	.contact-form {
+	.apply-form {
 		padding: 50px 25px;
 	}
 
-	.contact-form .form-title {
+	.apply-form .form-title {
 		font-size: 24px;
 		margin-bottom: 20px;
 	}
 
-	.contact-maps {
+	.apply-maps {
 		min-height: 350px;
 	}
 

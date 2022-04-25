@@ -53,7 +53,7 @@
     ## FAQ Tabs
     ## Partners Logo
     ## Partners Section With CTA
-    ## Team Member
+    ## Team
     ## Donate
     ## Event Items
     ## About Section One
@@ -74,7 +74,7 @@
 
 :root {
 	--body-color: #696969;
-	--primary-color: #02a95c;
+	--primary-color: #ff7a28;
 	--secondary-color: #001d23;
 	--primary-soft-color: #edf9f3;
 	--white: #fff;
@@ -908,22 +908,22 @@ a:hover {
 	background-color: var(--secondary-color);
 }
 
-.header-topbar .contact-info li {
+.header-topbar .apply-info li {
 	font-size: 15px;
 	font-weight: 500;
 	color: var(--white);
 	display: inline-block;
 }
 
-.header-topbar .contact-info li:not(:last-child) {
+.header-topbar .apply-info li:not(:last-child) {
 	margin-right: 40px;
 }
 
-.header-topbar .contact-info li i {
+.header-topbar .apply-info li i {
 	margin-right: 8px;
 }
 
-.header-topbar .contact-info a {
+.header-topbar .apply-info a {
 	color: var(--white);
 }
 
@@ -1119,13 +1119,13 @@ a:hover {
 	background-color: transparent;
 }
 
-.topbar-transparent .header-topbar .contact-info a,
-.topbar-transparent .header-topbar .contact-info li,
+.topbar-transparent .header-topbar .apply-info a,
+.topbar-transparent .header-topbar .apply-info li,
 .topbar-transparent .header-topbar .social-icons a {
 	color: var(--secondary-color);
 }
 
-.topbar-transparent .header-topbar .contact-info i {
+.topbar-transparent .header-topbar .apply-info i {
 	color: var(--primary-color);
 }
 
@@ -1332,7 +1332,7 @@ a:hover {
 	visibility: visible;
 }
 
-.footer-widgets .widget.contact-widget li {
+.footer-widgets .widget.apply-widget li {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -1341,11 +1341,11 @@ a:hover {
 	align-items: center;
 }
 
-.footer-widgets .widget.contact-widget li:not(:last-child) {
+.footer-widgets .widget.apply-widget li:not(:last-child) {
 	margin-bottom: 25px;
 }
 
-.footer-widgets .widget.contact-widget li .icon {
+.footer-widgets .widget.apply-widget li .icon {
 	-webkit-box-flex: 0;
 	-ms-flex: 0 0 45px;
 	flex: 0 0 45px;
@@ -1360,20 +1360,20 @@ a:hover {
 	margin-right: 15px;
 }
 
-.footer-widgets .widget.contact-widget li .info {
+.footer-widgets .widget.apply-widget li .info {
 	font-size: 18px;
 	font-weight: 500;
 }
 
-.footer-widgets .widget.contact-widget li .info-title {
+.footer-widgets .widget.apply-widget li .info-title {
 	font-size: 16px;
 	color: #999ca5;
 	display: block;
 	margin-bottom: 2px;
 }
 
-.footer-widgets .widget.contact-widget li .info,
-.footer-widgets .widget.contact-widget li .info a {
+.footer-widgets .widget.apply-widget li .info,
+.footer-widgets .widget.apply-widget li .info a {
 	color: var(--white);
 }
 
@@ -1614,7 +1614,7 @@ a:hover {
 	position: relative;
 	z-index: 1;
 	padding: 125px 0;
-	background-image: url(../img/page-title.jpg);
+	background-image: url(../img/team/team-banner.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -3544,7 +3544,7 @@ a:hover {
 	padding-bottom: 170px;
 }
 
-/*======= Team Member =======*/
+/*======= Team =======*/
 .teams .member-box {
 	position: relative;
 	padding-bottom: 30px;
@@ -5163,7 +5163,7 @@ a:hover {
 }
 
 /*======= Contact =======*/
-.contact-info-boxes .info-box .icon {
+.apply-info-boxes .info-box .icon {
 	background-color: var(--primary-color);
 	display: -webkit-inline-box;
 	display: -ms-inline-flexbox;
@@ -5185,44 +5185,57 @@ a:hover {
 	font-size: 40px;
 }
 
-.contact-info-boxes .info-box .info-content {
+.apply-info-boxes .info-box .info-content {
 	background-color: var(--primary-soft-color);
 	padding: 70px 30px 25px;
 	margin-top: -43px;
 }
 
-.contact-info-boxes .info-content h5 {
+.apply-info-boxes .info-content h5 {
 	font-size: 22px;
 	margin-bottom: 15px;
 }
 
-.contact-from-area {
+.apply-from-area {
 	margin-top: 100px;
 }
 
-.contact-maps {
+.apply-maps {
 	width: 100%;
 	height: 100%;
 	min-height: 500px;
 }
 
-.contact-maps iframe {
+.apply-maps iframe {
 	width: 100%;
 	height: 100%;
 	border: none;
 }
 
-.contact-form {
+.apply-form {
 	background-color: var(--primary-soft-color);
 	padding: 60px 50px;
 }
 
-.contact-form .form-title {
+.apply-form .form-title {
 	font-size: 35px;
 	margin-bottom: 35px;
 }
 
-.contact-form input:not(:focus),
-.contact-form textarea:not(:focus) {
+.apply-form input:not(:focus),
+.apply-form textarea:not(:focus) {
 	border-color: transparent;
 }
+
+.site-logo{
+	width: 8%; 
+}
+
+.footer-logo{
+	width: 80%;
+}
+
+.afri{
+	color: #ff7a28;
+}
+

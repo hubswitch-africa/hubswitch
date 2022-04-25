@@ -5,18 +5,18 @@ import Layout from "../src/layouts/Layout";
 const TeamMember = () => {
   return (
     <Layout>
-      <PageBanner pageName="Team Member" />
+      <PageBanner pageName="Team" />
       <section className="team-area section-gap-extra-bottom">
         <div className="container">
           <div className="row teams justify-content-center">
             <div className="col-lg-4 col-md-6 col-sm-9">
               <div className="member-box mb-30">
                 <div className="member-photo">
-                  <img src="assets/img/team/01.jpg" alt="Member" />
+                  <img src="assets/img/team/chief-priest.jpg" alt="Member" />
                 </div>
                 <div className="member-info">
                   <h5 className="name">
-                    <Link href="/contact">Allen J. Thompson</Link>
+                    <Link href="/apply">Michael Osoba</Link>
                   </h5>
                   <span className="title">CEO &amp; Founder</span>
                   <ul className="social-links">
@@ -47,11 +47,11 @@ const TeamMember = () => {
             <div className="col-lg-4 col-md-6 col-sm-9">
               <div className="member-box mb-30">
                 <div className="member-photo">
-                  <img src="assets/img/team/02.jpg" alt="Member" />
+                  <img src="assets/img/team/emeka.jpeg" alt="Member" />
                 </div>
                 <div className="member-info">
                   <h5 className="name">
-                    <Link href="/contact">Steven E. Wagner</Link>
+                    <Link href="/apply">Nnaemeka Onukwube</Link>
                   </h5>
                   <span className="title">Jonior Manager</span>
                   <ul className="social-links">
@@ -82,11 +82,11 @@ const TeamMember = () => {
             <div className="col-lg-4 col-md-6 col-sm-9">
               <div className="member-box mb-30">
                 <div className="member-photo">
-                  <img src="assets/img/team/03.jpg" alt="Member" />
+                  <img src="assets/img/team/izu.jpg" alt="Member" />
                 </div>
                 <div className="member-info">
                   <h5 className="name">
-                    <Link href="/contact">Dwayne C. Dawson</Link>
+                    <Link href="/apply">Izuchukwu Onukwube</Link>
                   </h5>
                   <span className="title">Digital Marketer</span>
                   <ul className="social-links">
@@ -117,11 +117,46 @@ const TeamMember = () => {
             <div className="col-lg-4 col-md-6 col-sm-9">
               <div className="member-box mb-30">
                 <div className="member-photo">
-                  <img src="assets/img/team/04.jpg" alt="Member" />
+                  <img src="assets/img/team/james.png" alt="Member" />
                 </div>
                 <div className="member-info">
                   <h5 className="name">
-                    <Link href="/contant">Steven B. Rangel</Link>
+                    <Link href="/contant">Jewel Osafile</Link>
+                  </h5>
+                  <span className="title">Web &amp; App Developer</span>
+                  <ul className="social-links">
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-facebook-f" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-twitter" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-youtube" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-linkedin" />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-9">
+              <div className="member-box mb-30">
+                <div className="member-photo">
+                  <img src="assets/img/team/joseph.jpeg" alt="Member" />
+                </div>
+                <div className="member-info">
+                  <h5 className="name">
+                    <Link href="/apply">Joseph Ekemini</Link>
                   </h5>
                   <span className="title">Web Developer</span>
                   <ul className="social-links">
@@ -152,46 +187,11 @@ const TeamMember = () => {
             <div className="col-lg-4 col-md-6 col-sm-9">
               <div className="member-box mb-30">
                 <div className="member-photo">
-                  <img src="assets/img/team/05.jpg" alt="Member" />
+                  <img src="assets/img/team/simon2.jpg" alt="Member" />
                 </div>
                 <div className="member-info">
                   <h5 className="name">
-                    <Link href="/contact">Richard R. Barnes</Link>
-                  </h5>
-                  <span className="title">Web Developer</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin" />
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-9">
-              <div className="member-box mb-30">
-                <div className="member-photo">
-                  <img src="assets/img/team/06.jpg" alt="Member" />
-                </div>
-                <div className="member-info">
-                  <h5 className="name">
-                    <Link href="/contact">James P. Gutierrez</Link>
+                    <Link href="/apply">Simon Abah</Link>
                   </h5>
                   <span className="title">Sr Manager</span>
                   <ul className="social-links">
@@ -222,11 +222,11 @@ const TeamMember = () => {
             <div className="col-lg-4 col-md-6 col-sm-9">
               <div className="member-box mb-30">
                 <div className="member-photo">
-                  <img src="assets/img/team/07.jpg" alt="Member" />
+                  <img src="assets/img/team/victor2.jpg" alt="Member" />
                 </div>
                 <div className="member-info">
                   <h5 className="name">
-                    <Link href="/contact">Tony C. Anderson</Link>
+                    <Link href="/apply">Victor Olisa</Link>
                   </h5>
                   <span className="title">Senior Developer</span>
                   <ul className="social-links">
@@ -254,49 +254,15 @@ const TeamMember = () => {
                 </div>
               </div>
             </div>
+           
             <div className="col-lg-4 col-md-6 col-sm-9">
               <div className="member-box mb-30">
                 <div className="member-photo">
-                  <img src="assets/img/team/08.jpg" alt="Member" />
+                  <img src="assets/img/team/james.png" alt="Member" />
                 </div>
                 <div className="member-info">
                   <h5 className="name">
-                    <Link href="/contact">Stan H. Woodruff</Link>
-                  </h5>
-                  <span className="title">Apps Developer</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin" />
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-9">
-              <div className="member-box mb-30">
-                <div className="member-photo">
-                  <img src="assets/img/team/09.jpg" alt="Member" />
-                </div>
-                <div className="member-info">
-                  <h5 className="name">
-                    <Link href="/contact">Ronald T. Kessler</Link>
+                    <Link href="/apply">Santos Philip</Link>
                   </h5>
                   <span className="title">Web Designer</span>
                   <ul className="social-links">
@@ -326,7 +292,7 @@ const TeamMember = () => {
             </div>
             <div className="col-12">
               <div className="view-more-btn text-center mt-40">
-                <Link href="/contact">
+                <Link href="/apply">
                   <a className="main-btn">
                     Join Our Team <i className="far fa-arrow-right" />
                   </a>
