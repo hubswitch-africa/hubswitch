@@ -18,7 +18,7 @@ const Index2 = () => {
             <div className="col-lg-6 col-md-8 col-sm-11">
               <div className="hero-text">
                 <h1 className="title wow fadeInLeft" data-wow-delay="0.2s">
-                  SYHM 525O VR Box Smart Phone VR Box
+                HUBSWITCH <span className="afri">AFRICA</span>
                 </h1>
                 <p className="wow fadeInLeft" data-wow-delay="0.3s">
                   Sedut perspiciatis unde omnis iste natus voluptatem
@@ -49,17 +49,17 @@ const Index2 = () => {
               data-wow-delay="0.2s"
             >
               <div className="hero-img text-lg-right">
-                <img src="assets/img/hero/hero-two-img.png" alt="Img" />
+                <img src="assets/img/hero/home1.jpg" alt="Img" />
               </div>
             </div>
           </div>
         </div>
         <div className="hero-shapes">
           <div className="hero-line-one">
-            <img src="assets/img/hero/hero-line-3.png" alt="Line" />
+            <img src="assets/img/hero/hand11.jpg" alt="Line" />
           </div>
           <div className="hero-line-two">
-            <img src="assets/img/hero/hero-line-2.png" alt="Line" />
+            <img src="assets/img/hero/hand11.jpg" alt="Line" />
           </div>
           <div className="dot-one" />
           <div className="dot-two" />
@@ -139,7 +139,7 @@ const Index2 = () => {
               </div>
               <div className="col-xl-5 order-xl-1 wow fadeInUp">
                 <div className="about-curved-img">
-                  <img src="assets/img/about/man-with-laptop.png" alt="Image" />
+                  <img src="assets/img/about/man-with-laptop.jpg" alt="Image" />
                 </div>
               </div>
             </div>
