@@ -73,10 +73,10 @@ const MobileHeader = ({
       <div className="navbar-wrapper breakpoint-on">
         <div className="container">
           <div className="navbar-inner">
-            <div className="site-logo">
+            <div className="mobile-logo" >
               <Link href="/">
                 <a>
-                  <img src="assets/img/logo-trans.png" alt="Hubswitch" />
+                  <img src="assets/img/logo2-trans.png" alt="Hubswitch" />
                 </a>
               </Link>
             </div>
@@ -101,7 +101,7 @@ const MobileHeader = ({
         <div className="panel-logo">
           <Link href="/">
             <a>
-              <img src="assets/img/logo-white.png" alt="Hubswitch" />
+              <img src="assets/img/logo1-name.png" alt="Hubswitch" />
             </a>
           </Link>
         </div>
