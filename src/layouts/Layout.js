@@ -30,7 +30,7 @@ const Layout = ({
         <title>Hubswitch</title>
         <link
           rel="shortcut icon"
-          href="assets/img/logo-trans.png"
+          href="assets/img/.png"
           type="img/png"
         />
       </Head>

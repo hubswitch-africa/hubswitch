@@ -29,7 +29,7 @@ const MobileHeader = ({
         <div className="container">
           <div className="row justify-content-between align-items-center">
             <div className="col-auto">
-              <ul className="contact-info">
+              <ul className="apply-info">
                 <li>
                   <a href="#">
                     <i className="far fa-envelope" /> support@gmail.com
@@ -76,7 +76,7 @@ const MobileHeader = ({
             <div className="site-logo">
               <Link href="/">
                 <a>
-                  <img src="assets/img/logo.png" alt="Hubswitch" />
+                  <img src="assets/img/logo-trans.png" alt="Hubswitch" />
                 </a>
               </Link>
             </div>
@@ -166,7 +166,7 @@ const MobileHeader = ({
             </ul>
           </li>
           <li>
-            <Link href="/contact">Contact</Link>
+            <Link href="/apply">Contact</Link>
           </li>
         </ul>
         <div className="panel-extra">
