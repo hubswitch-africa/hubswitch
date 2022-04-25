@@ -38,7 +38,7 @@ const Footer = ({ footerSolidBg }) => {
               <div className="col-xl-3 col-lg-4 col-md-6">
                 <div className="widget about-widget">
                   <div className="footer-logo">
-                    <img src="assets/img/logo-trans.png" alt="Hubswitch" />
+                    <img src="assets/img/logo2-trans.png" alt="Hubswitch" />
                   </div>
                   <p>
                     Sed ut perspiciatis unde omn iste natus error sit voluptatem
@@ -111,7 +111,7 @@ const Footer = ({ footerSolidBg }) => {
                       </span>
                       <span className="info">
                         <span className="info-title">Phone Number</span>
-                        <a href="#">+012(345) 78 93</a>
+                        <a href="#">+234 902 581 6370</a>
                       </span>
                     </li>
                     <li>
