@@ -69,7 +69,7 @@ const Header = ({ transparentTop, transparentHeader, topSecondaryBg }) => {
             <div className="site-logo">
               <Link href="/">
                 <a>
-                  <img src="assets/img/logo-trans.png" alt="Hubswitch" />
+                  <img src="assets/img/logo2-trans.png" alt="Hubswitch" />
                 </a>
               </Link>
             </div>
