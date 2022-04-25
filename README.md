@@ -1,5 +1,5 @@
 # Hubswitch
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6f6e2958-9e1f-4b66-897f-beb82d2f602d/deploy-status)](https://app.netlify.com/sites/hubswitch/deploys)
 
 ## Baby Steps 
 
