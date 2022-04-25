@@ -106,34 +106,13 @@ const MobileHeader = ({
           </Link>
         </div>
         <ul className="panel-menu" id="menu">
-          <li>
-            <a href="#">
-              Home
-              <span
-                className={`dd-trigger ${activeArrow("home")}`}
-                onClick={() => setActive("home")}
-              >
-                <i className="far fa-angle-down" />
-              </span>
-            </a>
-            <ul className="submenu" style={activeLi("home")}>
-              {Home}
-            </ul>
-          </li>
-          <li>
-            <a href="#">
-              Project
-              <span
-                className={`dd-trigger ${activeArrow("Project")}`}
-                onClick={() => setActive("Project")}
-              >
-                <i className="far fa-angle-down" />
-              </span>
-            </a>
-            <ul className="submenu" style={activeLi("Project")}>
-              {Project}
-            </ul>
-          </li>
+
+        <li>
+                  <Link href="/">
+                    Home
+                  </Link> </li>
+
+
           <li>
             <Link href="/events">Events</Link>
           </li>
@@ -166,7 +145,7 @@ const MobileHeader = ({
             </ul>
           </li>
           <li>
-            <Link href="/apply">Contact</Link>
+            <Link href="/apply">Apply</Link>
           </li>
         </ul>
         <div className="panel-extra">
