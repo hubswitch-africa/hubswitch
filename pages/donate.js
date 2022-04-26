@@ -14,30 +14,21 @@ const Donate = () => {
               data-wow-delay="0s"
             >
               <div className="donate-box mb-30">
-                <h6 className="plan-name">Basic Plan</h6>
-                <div className="price">
-                  <span className="currency">$</span>
-                  <span>29.67</span>
-                </div>
-                <span className="plan-subtitle">
-                  Suitable For Any IT Solutions
-                </span>
+                <h6 className="plan-name">as Individual</h6>
+                <span className="plan-subtitle">Payment options</span>
                 <ul className="plan-feature">
                   <li>
-                    <i className="fas fa-check" /> Resposive Design
+                    <i className="fas fa-check" /> Card Payment
                   </li>
                   <li>
-                    <i className="fas fa-check" /> Unlimited Entities
+                    <i className="fas fa-check" /> Wire Transfer
                   </li>
-                  <li className="hidden-feature">
-                    <i className="fas fa-check" /> Premium Quality Support
-                  </li>
-                  <li className="hidden-feature">
-                    <i className="fas fa-check" /> Hosted In The Cloud
+                  <li>
+                    <i className="fas fa-check" /> Crypto Payment
                   </li>
                 </ul>
                 <a href="#" className="donate-btn">
-                  Select Plan <i className="fas fa-arrow-right" />
+                  Donate <i className="fas fa-arrow-right" />
                 </a>
                 <div className="plan-shape">
                   <img src="assets/img/donate-shape.png" alt="shape" />
@@ -49,35 +40,32 @@ const Donate = () => {
               data-wow-delay="0.1s"
             >
               <div className="donate-box featured-plan mb-30">
-                <h6 className="plan-name">popular Plan</h6>
+                <h6 className="plan-name">Scholarship Fund</h6>
                 <div className="price">
-                  <span className="currency">$</span>
-                  <span>35.92</span>
+                  <span className="currency">
+                    <img src="assets/img/naira.png" />
+                  </span>
+                  <span>300,000</span>
                 </div>
-                <span className="plan-subtitle">
-                  Suitable For Any IT Solutions
-                </span>
+                <span className="plan-subtitle">Payment Options</span>
                 <ul className="plan-feature">
                   <li>
-                    <i className="fas fa-check" /> Resposive Design
+                    <i className="fas fa-check" /> Card Payment
                   </li>
                   <li>
-                    <i className="fas fa-check" /> Unlimited Entities
+                    <i className="fas fa-check" /> Wire Transfer
                   </li>
                   <li>
-                    <i className="fas fa-check" /> Premium Quality Support
-                  </li>
-                  <li className="hidden-feature">
-                    <i className="fas fa-check" /> Hosted In The Cloud
+                    <i className="fas fa-check" /> Crypto Payment
                   </li>
                 </ul>
                 <a href="#" className="donate-btn">
-                  Select Plan <i className="fas fa-arrow-right" />
+                  Donate <i className="fas fa-arrow-right" />
                 </a>
                 <div className="plan-shape">
                   <img src="assets/img/donate-shape.png" alt="shape" />
                 </div>
-                <span className="plan-tag">Save 45%</span>
+                <span className="plan-tag">Donations so far</span>
               </div>
             </div>
             <div
@@ -85,30 +73,21 @@ const Donate = () => {
               data-wow-delay="0.2s"
             >
               <div className="donate-box mb-30">
-                <h6 className="plan-name">premium Plan</h6>
-                <div className="price">
-                  <span className="currency">$</span>
-                  <span>85.39</span>
-                </div>
-                <span className="plan-subtitle">
-                  Suitable For Any IT Solutions
-                </span>
+                <h6 className="plan-name">as Organization</h6>
+                <span className="plan-subtitle">Payment Options</span>
                 <ul className="plan-feature">
                   <li>
-                    <i className="fas fa-check" /> Resposive Design
+                    <i className="fas fa-check" /> Card Payment
                   </li>
                   <li>
-                    <i className="fas fa-check" /> Unlimited Entities
+                    <i className="fas fa-check" /> Wire Transfer
                   </li>
                   <li>
-                    <i className="fas fa-check" /> Premium Quality Support
-                  </li>
-                  <li>
-                    <i className="fas fa-check" /> Hosted In The Cloud
+                    <i className="fas fa-check" /> Crypto Payment
                   </li>
                 </ul>
                 <a href="#" className="donate-btn">
-                  Select Plan <i className="fas fa-arrow-right" />
+                  Donate <i className="fas fa-arrow-right" />
                 </a>
                 <div className="plan-shape">
                   <img src="assets/img/donate-shape.png" alt="shape" />
