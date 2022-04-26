@@ -18,7 +18,7 @@ const TeamMember = () => {
                   <h5 className="name">
                     <Link href="/apply">Michael Osoba</Link>
                   </h5>
-                  <span className="title">CEO &amp; Founder</span>
+                  <span className="title">Community Manager</span>
                   <ul className="social-links">
                     <li>
                       <a href="#">
@@ -53,7 +53,7 @@ const TeamMember = () => {
                   <h5 className="name">
                     <Link href="/apply">Nnaemeka Onukwube</Link>
                   </h5>
-                  <span className="title">Jonior Manager</span>
+                  <span className="title">Engineering Lead</span>
                   <ul className="social-links">
                     <li>
                       <a href="#">
@@ -88,7 +88,7 @@ const TeamMember = () => {
                   <h5 className="name">
                     <Link href="/apply">Izuchukwu Onukwube</Link>
                   </h5>
-                  <span className="title">Digital Marketer</span>
+                  <span className="title">General Counsel (DevRel)</span>
                   <ul className="social-links">
                     <li>
                       <a href="#">
@@ -123,7 +123,7 @@ const TeamMember = () => {
                   <h5 className="name">
                     <Link href="/contant">Jewel Osafile</Link>
                   </h5>
-                  <span className="title">Web &amp; App Developer</span>
+                  <span className="title">Engineering Team</span>
                   <ul className="social-links">
                     <li>
                       <a href="#">
@@ -158,7 +158,7 @@ const TeamMember = () => {
                   <h5 className="name">
                     <Link href="/apply">Joseph Ekemini</Link>
                   </h5>
-                  <span className="title">Web Developer</span>
+                  <span className="title">Engineering Team</span>
                   <ul className="social-links">
                     <li>
                       <a href="#">
@@ -193,7 +193,7 @@ const TeamMember = () => {
                   <h5 className="name">
                     <Link href="/apply">Simon Abah</Link>
                   </h5>
-                  <span className="title">Sr Manager</span>
+                  <span className="title">Programs Manager &amp; Chapter Programs </span>
                   <ul className="social-links">
                     <li>
                       <a href="#">
@@ -228,7 +228,7 @@ const TeamMember = () => {
                   <h5 className="name">
                     <Link href="/apply">Victor Olisa</Link>
                   </h5>
-                  <span className="title">Senior Developer</span>
+                  <span className="title">Editorial Team</span>
                   <ul className="social-links">
                     <li>
                       <a href="#">
@@ -264,7 +264,7 @@ const TeamMember = () => {
                   <h5 className="name">
                     <Link href="/apply">Santos Philip</Link>
                   </h5>
-                  <span className="title">Web Designer</span>
+                  <span className="title">Engineering Team</span>
                   <ul className="social-links">
                     <li>
                       <a href="#">
