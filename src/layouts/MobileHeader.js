@@ -73,10 +73,10 @@ const MobileHeader = ({
       <div className="navbar-wrapper breakpoint-on">
         <div className="container">
           <div className="navbar-inner">
-            <div className="site-logo">
+            <div className="mobile-logo" >
               <Link href="/">
                 <a>
-                  <img src="assets/img/logo-trans.png" alt="Hubswitch" />
+                  <img src="assets/img/logo2-trans.png" alt="Hubswitch" />
                 </a>
               </Link>
             </div>
@@ -101,39 +101,18 @@ const MobileHeader = ({
         <div className="panel-logo">
           <Link href="/">
             <a>
-              <img src="assets/img/logo-white.png" alt="Hubswitch" />
+              <img src="assets/img/logo1-name.png" alt="Hubswitch" />
             </a>
           </Link>
         </div>
         <ul className="panel-menu" id="menu">
-          <li>
-            <a href="#">
-              Home
-              <span
-                className={`dd-trigger ${activeArrow("home")}`}
-                onClick={() => setActive("home")}
-              >
-                <i className="far fa-angle-down" />
-              </span>
-            </a>
-            <ul className="submenu" style={activeLi("home")}>
-              {Home}
-            </ul>
-          </li>
-          <li>
-            <a href="#">
-              Project
-              <span
-                className={`dd-trigger ${activeArrow("Project")}`}
-                onClick={() => setActive("Project")}
-              >
-                <i className="far fa-angle-down" />
-              </span>
-            </a>
-            <ul className="submenu" style={activeLi("Project")}>
-              {Project}
-            </ul>
-          </li>
+
+        <li>
+                  <Link href="/">
+                    Home
+                  </Link> </li>
+
+
           <li>
             <Link href="/events">Events</Link>
           </li>
@@ -166,7 +145,7 @@ const MobileHeader = ({
             </ul>
           </li>
           <li>
-            <Link href="/apply">Contact</Link>
+            <Link href="/apply">Apply</Link>
           </li>
         </ul>
         <div className="panel-extra">

@@ -117,7 +117,7 @@ const TeamMember = () => {
             <div className="col-lg-4 col-md-6 col-sm-9">
               <div className="member-box mb-30">
                 <div className="member-photo">
-                  <img src="assets/img/team/james.png" alt="Member" />
+                  <img src="assets/img/team/jewel.jpg" alt="Member" />
                 </div>
                 <div className="member-info">
                   <h5 className="name">
