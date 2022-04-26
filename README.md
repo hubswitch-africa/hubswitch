@@ -9,3 +9,6 @@
 - `npm run build` to compile for production 🎉
 
 You can refer to the [nextjs documentation](https://nextjs.org) to learn more.
+
+
+To pull changes from the main branch into your local branch, run `git pull --rebase origin main`.
