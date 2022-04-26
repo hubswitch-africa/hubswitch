@@ -149,7 +149,7 @@ const MobileHeader = ({
           </li>
         </ul>
         <div className="panel-extra">
-          <a href="#" className="main-btn btn-white">
+          <a href="/donate" className="main-btn btn-white">
             Donate Now <i className="far fa-arrow-right" />
           </a>
         </div>
