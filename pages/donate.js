@@ -2,8 +2,12 @@ import Link from "next/dist/client/link";
 import { useState } from "react";
 import PageBanner from "../src/components/PageBanner";
 import Layout from "../src/layouts/Layout";
-import DonateBtn from "./components/CustomToggle";
-import { paymentOptions, secondOptions, thirdOptions } from "./paymentOptions";
+import DonateBtn from "../src/components/CustomToggle";
+import {
+  paymentOptions,
+  secondOptions,
+  thirdOptions,
+} from "../src/components/paymentOptions";
 
 const Donate = () => {
   const [detail, setDetail] = useState();
