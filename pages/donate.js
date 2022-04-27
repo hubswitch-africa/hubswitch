@@ -1,8 +1,15 @@
 import Link from "next/dist/client/link";
+import { useState } from "react";
 import PageBanner from "../src/components/PageBanner";
 import Layout from "../src/layouts/Layout";
+import DonateBtn from "./components/CustomToggle";
+import { paymentOptions, secondOptions, thirdOptions } from "./paymentOptions";
 
 const Donate = () => {
+  const [detail, setDetail] = useState();
+  const [detail2, setDetail2] = useState();
+  const [detail3, setDetail3] = useState();
+
   return (
     <Layout>
       <PageBanner pageName="Donate" />
@@ -14,22 +21,28 @@ const Donate = () => {
               data-wow-delay="0s"
             >
               <div className="donate-box mb-30">
-                <h6 className="plan-name">as Individual</h6>
-                <span className="plan-subtitle">Payment options</span>
+                <h6 className="plan-name">as an</h6>
+                <div className="price">
+                  <span>Individual</span>
+                </div>
+                <span className="plan-subtitle">Select Payment options</span>
                 <ul className="plan-feature">
-                  <li>
-                    <i className="fas fa-check" /> Card Payment
-                  </li>
-                  <li>
-                    <i className="fas fa-check" /> Wire Transfer
-                  </li>
-                  <li>
-                    <i className="fas fa-check" /> Crypto Payment
-                  </li>
+                  {paymentOptions.map((option) => (
+                    <li
+                      onClick={(e) => {
+                        e.preventDefault();
+                        setDetail(option.name);
+                      }}
+                      key={option.uid}
+                    >
+                      {detail == option.name ? (
+                        <i className="fas fa-check" />
+                      ) : null}
+                      {option.name} Payment
+                    </li>
+                  ))}
                 </ul>
-                <a href="#" className="donate-btn">
-                  Donate <i className="fas fa-arrow-right" />
-                </a>
+                <DonateBtn children={detail} individual mode={detail} />
                 <div className="plan-shape">
                   <img src="assets/img/donate-shape.png" alt="shape" />
                 </div>
@@ -42,26 +55,26 @@ const Donate = () => {
               <div className="donate-box featured-plan mb-30">
                 <h6 className="plan-name">Scholarship Fund</h6>
                 <div className="price">
-                  <span className="currency">
-                    <img src="assets/img/naira.png" />
-                  </span>
-                  <span>300,000</span>
+                  <span>₦300,000</span>
                 </div>
                 <span className="plan-subtitle">Payment Options</span>
                 <ul className="plan-feature">
-                  <li>
-                    <i className="fas fa-check" /> Card Payment
-                  </li>
-                  <li>
-                    <i className="fas fa-check" /> Wire Transfer
-                  </li>
-                  <li>
-                    <i className="fas fa-check" /> Crypto Payment
-                  </li>
+                  {secondOptions.map((option) => (
+                    <li
+                      onClick={(e) => {
+                        e.preventDefault();
+                        setDetail2(option.value);
+                      }}
+                      key={option.uid}
+                    >
+                      {detail2 == option.value ? (
+                        <i className="fas fa-check" />
+                      ) : null}
+                      {option.value} Payment
+                    </li>
+                  ))}
                 </ul>
-                <a href="#" className="donate-btn">
-                  Donate <i className="fas fa-arrow-right" />
-                </a>
+                <DonateBtn children={detail2} mode={detail2} />
                 <div className="plan-shape">
                   <img src="assets/img/donate-shape.png" alt="shape" />
                 </div>
@@ -73,22 +86,28 @@ const Donate = () => {
               data-wow-delay="0.2s"
             >
               <div className="donate-box mb-30">
-                <h6 className="plan-name">as Organization</h6>
+                <h6 className="plan-name">as an</h6>
+                <div className="price">
+                  <span className="text-center">Organization</span>
+                </div>
                 <span className="plan-subtitle">Payment Options</span>
                 <ul className="plan-feature">
-                  <li>
-                    <i className="fas fa-check" /> Card Payment
-                  </li>
-                  <li>
-                    <i className="fas fa-check" /> Wire Transfer
-                  </li>
-                  <li>
-                    <i className="fas fa-check" /> Crypto Payment
-                  </li>
+                  {thirdOptions.map((option) => (
+                    <li
+                      onClick={(e) => {
+                        e.preventDefault();
+                        setDetail3(option.value);
+                      }}
+                      key={option.uid}
+                    >
+                      {detail3 == option.value ? (
+                        <i className="fas fa-check" />
+                      ) : null}
+                      {option.value} Payment
+                    </li>
+                  ))}
                 </ul>
-                <a href="#" className="donate-btn">
-                  Donate <i className="fas fa-arrow-right" />
-                </a>
+                <DonateBtn children={detail3} organization mode={detail3} />
                 <div className="plan-shape">
                   <img src="assets/img/donate-shape.png" alt="shape" />
                 </div>
