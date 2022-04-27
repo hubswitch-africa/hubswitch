@@ -46,7 +46,7 @@ const Contact = () => {
                           <label htmlFor="email">Email</label>
                           <input
                             type="text"
-                            placeholder="support@gmail.com"
+                            placeholder="john@example.com"
                             id="email"
                             name="name"
                             required
@@ -147,7 +147,7 @@ const Contact = () => {
 
                       <div className="col-12">
                         <div className="form-field mb-30">
-                          <label htmlFor="message">Tell us why u should be selected</label>
+                          <label htmlFor="message">Tell us why you should be selected</label>
                           <textarea
                             id="message"
                             placeholder="Hello"
