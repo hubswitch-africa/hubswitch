@@ -10,9 +10,9 @@ import {
 } from "../src/components/paymentOptions";
 
 const Donate = () => {
-  const [detail, setDetail] = useState();
-  const [detail2, setDetail2] = useState();
-  const [detail3, setDetail3] = useState();
+  const [detail, setDetail] = useState("Card");
+  const [detail2, setDetail2] = useState("Card");
+  const [detail3, setDetail3] = useState("Card");
 
   return (
     <Layout>
