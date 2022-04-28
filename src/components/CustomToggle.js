@@ -11,7 +11,7 @@ const DonateBtn = ({ children, individual, organization, mode }) => {
               : mode === "Bank"
               ? "uri"
               : mode === "Crypto"
-              ? "uri"
+              ? "https://lazerpay.finance/donate/individual-donation-6wvr2sw"
               : !children
               ? "https://paystack.com/pay/hubswitch"
               : null
@@ -45,7 +45,7 @@ const DonateBtn = ({ children, individual, organization, mode }) => {
               : mode === "Bank"
               ? "uri"
               : mode === "Crypto"
-              ? "uri"
+              ? ""
               : !children
               ? "https://paystack.com/pay/hubswitch"
               : null
