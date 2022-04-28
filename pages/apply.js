@@ -10,7 +10,7 @@ const Contact = () => {
         <div className="container">
         
           {/* Contact Info End */}
-          <div className="apply-from-area">
+          <div className="apply-from-area mt-1">
             <div className="row no-gutters">
             
               <div className="col-lg-12">
@@ -46,7 +46,7 @@ const Contact = () => {
                           <label htmlFor="email">Email</label>
                           <input
                             type="text"
-                            placeholder="support@gmail.com"
+                            placeholder="john@example.com"
                             id="email"
                             name="name"
                             required
@@ -57,10 +57,66 @@ const Contact = () => {
                         <div className="form-field mb-25">
                           <label htmlFor="subject">Country of Origin</label>
                           <select name="country" required>
-                              <option>Nigeria</option>
-                              <option>Ghana</option>
-                              <option>kenya</option>
-                              <option>Cameroon</option>
+                             <option> Nigeria</option>
+                             <option> Ethiopia</option>
+                             <option> Democratic Republic of the Congo</option>
+                             <option> Egypt</option>
+                             <option> South Africa</option>
+                             <option> Tanzania</option>
+                             <option> Kenya</option>
+                             <option> Algeria</option>
+                             <option> Uganda</option>
+                             <option> Sudan</option>
+                             <option> Morocco</option>
+                             <option> Angola</option>
+                             <option> Ghana</option>
+                             <option> Cameroon</option>
+                             <option> Madagascar</option>
+                             <option> Mozambique</option>
+                             <option> Ivory Coast</option>
+                             <option> Niger</option>
+                             <option> Mali</option>
+                             <option> Malawi</option>
+                             <option> Burkina Faso</option>
+                             <option> Chad</option>
+                             <option> Somalia 	</option>
+                             <option> Zimbabwe</option>
+                             <option> Zambia</option>
+                             <option> Senegal</option>
+                             <option> South Sudan</option>
+                             <option> Rwanda</option>
+                             <option> Guinea</option>
+                             <option> Benin</option>
+                             <option> Tunisia</option>
+                             <option> Burundi</option>
+                             <option> Sierra Leone</option>
+                             <option> Togo</option>
+                             <option> Libya</option>
+                             <option> Republic of the Congo</option>
+                             <option> Liberia</option>
+                             <option> Central African Republic</option>
+                             <option> Mauritania</option>
+                             <option> Eritrea</option>
+                             <option> Namibia</option>
+                             <option> Gambia </option>
+                             <option> Botswana</option>
+                             <option> Gabon</option>
+                             <option> Lesotho</option>
+                             <option> Guinea-Bissau</option>
+                             <option> Equatorial Guinea</option>
+                             <option> Mauritius</option>
+                             <option> Eswatini</option>
+                             <option> Djibouti</option>
+                             <option> Réunion (France)</option>
+                             <option> Comoros</option>
+                             <option> Cape Verde</option>
+                             <option> Western Sahara</option>
+                             <option> Mayotte (France)</option>
+                             <option> São Tomé and Príncipe</option>
+                             <option> Seychelles</option>
+                             <option> Saint Helena, Ascension and Tristan da Cunha (UK) </option>
+                            
+
                           </select>
                         </div>
                       </div>
@@ -91,7 +147,7 @@ const Contact = () => {
 
                       <div className="col-12">
                         <div className="form-field mb-30">
-                          <label htmlFor="message">Tell us why u should be selected</label>
+                          <label htmlFor="message">Tell us why you should be selected</label>
                           <textarea
                             id="message"
                             placeholder="Hello"

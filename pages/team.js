@@ -121,7 +121,7 @@ const TeamMember = () => {
                 </div>
                 <div className="member-info">
                   <h5 className="name">
-                    <Link href="/contant">Jewel Osafile</Link>
+                    <Link href="/apply">Jewel Osafile</Link>
                   </h5>
                   <span className="title">Engineering Team</span>
                   <ul className="social-links">
