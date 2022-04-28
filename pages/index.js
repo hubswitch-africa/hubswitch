@@ -49,7 +49,7 @@ const Index2 = () => {
               data-wow-delay="0.2s"
             >
               <div className="hero-img text-lg-right">
-                <img src="assets/img/hero/home1.jpg" alt="Img" />
+                <img src="assets/img/home3.png" alt="Img" />
               </div>
             </div>
           </div>
@@ -72,18 +72,18 @@ const Index2 = () => {
           <div className="container">
             <div className="about-donation-form">
               <div className="donation-heading">
-                <h3 className="title">Rise Your Hand</h3>
+                <h3 className="title">Be a Partner or Sponsor</h3>
                 <span className="shadow-text">Support</span>
               </div>
               <form onSubmit={(e) => e.preventDefault()} action="#">
                 <div className="form-wrap">
-                  <ul className="donation-amount">
+                  {/* <ul className="donation-amount">
                     <li>$5</li>
                     <li>$50</li>
                     <li>$180</li>
                     <li>$500</li>
                     <li>$1000</li>
-                  </ul>
+                  </ul> */}
                   <button type="submit" className="main-btn btn-white">
                     Donate Now <i className="far fa-arrow-right" />
                   </button>
@@ -139,7 +139,7 @@ const Index2 = () => {
               </div>
               <div className="col-xl-5 order-xl-1 wow fadeInUp">
                 <div className="about-curved-img">
-                  <img src="assets/img/about/man-with-laptop.jpg" alt="Image" />
+                  <img src="assets/img/hero/home1.jpg" alt="Image" />
                 </div>
               </div>
             </div>

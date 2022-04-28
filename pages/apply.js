@@ -10,7 +10,7 @@ const Contact = () => {
         <div className="container">
         
           {/* Contact Info End */}
-          <div className="apply-from-area">
+          <div className="apply-from-area mt-1">
             <div className="row no-gutters">
             
               <div className="col-lg-12">

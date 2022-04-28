@@ -1140,7 +1140,7 @@ a:hover {
 }
 
 .site-footer.with-footer-bg .footer-content-area {
-  background-image: url(../img/footer-bg.jpg);
+  background-image: url(../img/footerbg.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -1197,7 +1197,7 @@ a:hover {
 
 .site-footer .footer-cta .container::after {
   z-index: -1;
-  background-image: url(../img/cta/cta-pattern.png);
+  background-image: url(../img/cta/footerbg.jpg);
   background-size: cover;
   background-position: center;
   opacity: 0.07;
@@ -4045,6 +4045,8 @@ a:hover {
   z-index: 3;
 }
 
+
+
 .about-section-two .about-donation-form {
   padding: 60px 115px;
   background-color: var(--primary-color);
@@ -4104,7 +4106,7 @@ a:hover {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding-left: 50px;
+  padding-left: 300px;
 }
 
 .about-donation-form .donation-amount {
@@ -5247,3 +5249,4 @@ a:hover {
 .mobile-logo {
   width: 15%;
 }
+
