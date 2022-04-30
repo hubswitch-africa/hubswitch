@@ -44,7 +44,7 @@ const Home = (
       </li>
       
       <li>
-        <Link href="/team">Team</Link>
+        <Link href="/events">Events</Link>
       </li>
       <li>
         <Link href="/donate">Donate</Link>
