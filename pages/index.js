@@ -78,15 +78,18 @@ const Index2 = () => {
               <form onSubmit={(e) => e.preventDefault()} action="#">
                 <div className="form-wrap">
                   <ul className="donation-amount">
-                    <li>$5</li>
-                    <li>$50</li>
-                    <li>$180</li>
-                    <li>$500</li>
-                    <li>$1000</li>
+                  <Link href ="/donate"><li>$5</li></Link>
+                  <Link href ="/donate"><li>$50</li></Link>
+                  <Link href ="/donate"><li>$180</li></Link>
+                  <Link href ="/donate"><li>$500</li></Link>
+                  <Link href ="/donate"><li>$1000</li></Link>
                   </ul>
+                  <Link href="/donate">
                   <button type="submit" className="main-btn btn-white">
                     Donate Now <i className="far fa-arrow-right" />
+                   
                   </button>
+                  </Link>
                 </div>
               </form>
             </div>
