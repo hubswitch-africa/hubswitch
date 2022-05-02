@@ -21,8 +21,8 @@ const Index2 = () => {
                 HUBSWITCH <span className="afri">AFRICA</span>
                 </h1>
                 <p className="wow fadeInLeft" data-wow-delay="0.3s">
-                  Sedut perspiciatis unde omnis iste natus voluptatem
-                  accusantium dolore dantiumy totam rem apeam eaque ipsa
+                A community focused on bringing people into the tech space,
+                 and helping them grow their careers by contributing to open-source.
                 </p>
                 <ul className="hero-btn">
                   <li className="wow fadeInUp" data-wow-delay="0.4s">
@@ -49,7 +49,7 @@ const Index2 = () => {
               data-wow-delay="0.2s"
             >
               <div className="hero-img text-lg-right">
-                <img src="assets/img/home3.png" alt="Img" />
+                <img src="assets/img/hero/home1.jpg" alt="Img" />
               </div>
             </div>
           </div>
@@ -77,16 +77,19 @@ const Index2 = () => {
               </div>
               <form onSubmit={(e) => e.preventDefault()} action="#">
                 <div className="form-wrap">
-                  {/* <ul className="donation-amount">
-                    <li>$5</li>
-                    <li>$50</li>
-                    <li>$180</li>
-                    <li>$500</li>
-                    <li>$1000</li>
-                  </ul> */}
+                  <ul className="donation-amount">
+                  <Link href ="/donate"><li>$5</li></Link>
+                  <Link href ="/donate"><li>$50</li></Link>
+                  <Link href ="/donate"><li>$180</li></Link>
+                  <Link href ="/donate"><li>$500</li></Link>
+                  <Link href ="/donate"><li>$1000</li></Link>
+                  </ul>
+                  <Link href="/donate">
                   <button type="submit" className="main-btn btn-white">
                     Donate Now <i className="far fa-arrow-right" />
+                   
                   </button>
+                  </Link>
                 </div>
               </form>
             </div>
@@ -139,7 +142,7 @@ const Index2 = () => {
               </div>
               <div className="col-xl-5 order-xl-1 wow fadeInUp">
                 <div className="about-curved-img">
-                  <img src="assets/img/hero/home1.jpg" alt="Image" />
+                  <img src="assets/home1.jpg" alt="Image" />
                 </div>
               </div>
             </div>

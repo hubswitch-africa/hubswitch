@@ -80,11 +80,16 @@ const Header = ({ transparentTop, transparentHeader, topSecondaryBg }) => {
                     Home
                   </Link>
                 </li>
+                <Fragment>
                 <li>
-                  <Link href="/events">
-                    <a>Events</a>
+                  <Link href="/team">
+                    <a>Team</a>
                   </Link>
                 </li>
+                </Fragment>
+                
+               
+                
                 <li>
                   <a href="#">
                     News
