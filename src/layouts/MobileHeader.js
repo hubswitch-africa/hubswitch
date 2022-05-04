@@ -32,13 +32,13 @@ const MobileHeader = ({
               <ul className="apply-info">
                 <li>
                   <a href="#">
-                    <i className="far fa-envelope" /> support@gmail.com
+                    <i className="far fa-envelope" /> hubswitchafrica@gmail.com
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <i className="far fa-map-marker-alt" /> 250 Main Street, 2nd
-                    Floor, USA
+                    <i className="far fa-map-marker-alt" /> 
+                      Metaverse
                   </a>
                 </li>
               </ul>
@@ -81,7 +81,7 @@ const MobileHeader = ({
               </Link>
             </div>
             <div className="navbar-extra d-flex align-items-center">
-              <Link href="/events">
+              <Link href="/donate">
                 <a className="main-btn nav-btn d-none d-sm-inline-block">
                   Donate Now <i className="far fa-arrow-right" />
                 </a>
@@ -114,9 +114,13 @@ const MobileHeader = ({
 
 
           <li>
-            <Link href="/events">Events</Link>
+            <Link href="/team">Team</Link>
           </li>
           <li>
+            <Link href="/donate">Donate</Link>
+          </li>
+          
+          {/* <li>
             <a href="#">
               News
               <span
@@ -129,8 +133,8 @@ const MobileHeader = ({
             <ul className="submenu" style={activeLi("News")}>
               {News}
             </ul>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <a href="#">
               Pages
               <span
@@ -143,9 +147,13 @@ const MobileHeader = ({
             <ul className="submenu" style={activeLi("Pages")}>
               {Pages}
             </ul>
-          </li>
+          </li> */}
           <li>
             <Link href="/apply">Apply</Link>
+          </li>
+         
+          <li>
+            <Link href="/faq">FAQ</Link>
           </li>
         </ul>
         <div className="panel-extra">
