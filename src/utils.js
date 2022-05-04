@@ -35,7 +35,7 @@ export const activeNavMenu = (path) => {
     if (nav.pathname === path) {
       if (!nav.href.includes("#")) {
 
-        if (nav.pathname === "/events" || nav.pathname === "/apply" || nav.pathname === "/") {
+        if (nav.pathname === "/team" || nav.pathname === "/apply" || nav.pathname === "/") {
           nav.parentElement.className = "current";
         } else {
           // This applies to dropdowns in the navbar only
