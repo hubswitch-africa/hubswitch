@@ -1,8 +1,17 @@
 import Link from "next/dist/client/link";
+// import { Alert } from "react-bootstrap";
 import PageBanner from "../src/components/PageBanner";
 import Layout from "../src/layouts/Layout";
 
 const Contact = () => {
+
+  const Success = () => {
+    return(
+      alert("Submited!")
+    )
+  };
+
+
   return (
     <Layout>
       <PageBanner pageName="Apply" />
@@ -15,7 +24,11 @@ const Contact = () => {
             
               <div className="col-lg-12">
                 <div className="apply-form">
-                  <form onSubmit={(e) => e.preventDefault()} action="#">
+                  <form 
+                  name="contact"
+                  // onSubmit={(e) => e.preventDefault()} 
+                  method="POST" action="/success" data-netlify="true">
+                    <input type="hidden" name="form-name" value="contact" />
                     <h3 className="form-title">Tell us about Yourself</h3>
                     <div className="row">
                       <div className="col-lg-6">
