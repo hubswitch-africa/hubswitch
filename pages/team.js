@@ -292,7 +292,7 @@ const TeamMember = () => {
             </div>
             <div className="col-12">
               <div className="view-more-btn text-center mt-40">
-                <Link href="mailto:hubswitchafrica@gmail.com?subject=Hubswitch">
+                <Link href="mailto:hubswitchafrica@gmail.com?subject=Interest in joining the team">
                   <a className="main-btn">
                     Join Our Team <i className="far fa-arrow-right" />
                   </a>
