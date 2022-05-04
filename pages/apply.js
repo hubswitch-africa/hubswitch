@@ -58,7 +58,7 @@ const Contact = () => {
                         <div className="form-field mb-25">
                           <label htmlFor="email">Email</label>
                           <input
-                            type="text"
+                            type="email"
                             placeholder="john@example.com"
                             id="email"
                             name="name"
@@ -171,7 +171,7 @@ const Contact = () => {
                       </div>
                       <div className="col-12">
                         <div className="form-field">
-                          <button className="main-btn">
+                          <button className="main-btn" type="submit">
                             Apply <i className="far fa-arrow-right" />
                           </button>
                         </div>
