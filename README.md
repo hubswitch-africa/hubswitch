@@ -36,4 +36,4 @@ To pull changes from the main branch into your local branch, run
 
 You can refer to the [nextjs documentation](https://nextjs.org) to learn more.
 
-Happy hacking 
+Happy hacking 🥂
