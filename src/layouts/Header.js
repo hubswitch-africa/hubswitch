@@ -87,6 +87,15 @@ const Header = ({ transparentTop, transparentHeader, topSecondaryBg }) => {
                   </Link>
                 </li>
                 </Fragment>
+               
+               
+                <Fragment>
+                <li>
+                  <Link href="/donate">
+                    Donate
+                  </Link>
+                </li>
+                </Fragment>
                 
                
                 
@@ -99,7 +108,7 @@ const Header = ({ transparentTop, transparentHeader, topSecondaryBg }) => {
                   </a>
                   <ul className="submenu">{News}</ul>
                 </li> */}
-                <li>
+                {/* <li>
                   <a href="#">
                     Pages
                     <span className="dd-trigger">
@@ -107,10 +116,17 @@ const Header = ({ transparentTop, transparentHeader, topSecondaryBg }) => {
                     </span>
                   </a>
                   <ul className="submenu">{Pages}</ul>
-                </li>
+                </li> */}
                 <li>
                   <Link href="/apply">Apply</Link>
                 </li>
+               
+                <li>
+                  <Link href="/faq">FAQ</Link>
+                </li>
+
+
+
               </ul>
             </div>
             <div className="navbar-extra d-flex align-items-center">
