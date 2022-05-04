@@ -78,11 +78,14 @@ const Index2 = () => {
               <form onSubmit={(e) => e.preventDefault()} action="#">
                 <div className="form-wrap">
                   <ul className="donation-amount">
-                  <Link href ="/donate"><li>$5</li></Link>
-                  <Link href ="/donate"><li>$50</li></Link>
+                  <Link href ="/donate"><li>Support our laptop scholarship fund</li></Link>
+
+
+
+                  {/* <Link href ="/donate"><li>$50</li></Link>
                   <Link href ="/donate"><li>$180</li></Link>
                   <Link href ="/donate"><li>$500</li></Link>
-                  <Link href ="/donate"><li>$1000</li></Link>
+                  <Link href ="/donate"><li>$1000</li></Link> */}
                   </ul>
                   <Link href="/donate">
                   <button type="submit" className="main-btn btn-white">
@@ -791,9 +794,9 @@ const Index2 = () => {
                     Quis autem vel eum iure reprehenderit quien voluptate velit
                     esse quam nihil molestiae consequatur illum dolorem
                   </p>
-                  <Link href="/events">
+                  <Link href="mailto:hubswitchafrica@gmail.com?subject=Hubswitch Partnership">
                     <a className="main-btn btn-white">
-                      Start a Hubswitch <i className="far fa-arrow-right" />
+                      Become a partner <i className="far fa-arrow-right" />
                     </a>
                   </Link>
                 </div>
@@ -808,9 +811,9 @@ const Index2 = () => {
                     Quis autem vel eum iure reprehenderit quien voluptate velit
                     esse quam nihil molestiae consequatur illum dolorem
                   </p>
-                  <Link href="/events">
+                  <Link href="mailto:hubswitchafrica@gmail.com?subject=Hubswitch Partnership">
                     <a className="main-btn">
-                      Start a Hubswitch <i className="far fa-arrow-right" />
+                      Become a partner <i className="far fa-arrow-right" />
                     </a>
                   </Link>
                 </div>

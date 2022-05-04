@@ -4109,6 +4109,8 @@ a:hover {
   padding-left: 200px;
 }
 
+
+
 .about-donation-form .donation-amount {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4119,6 +4121,10 @@ a:hover {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin: -4px;
+}
+
+.donation-amount{
+  visibility: hidden;
 }
 
 .about-donation-form .donation-amount li {
