@@ -41,7 +41,7 @@ const Footer = ({ footerSolidBg }) => {
                     <img src="assets/img/logo2-trans.png" alt="Hubswitch" />
                   </div>
                   <p>
-                    Sed ut perspiciatis unde omn iste natus error sit voluptatem
+                    Changing Africa. Five lives a time
                   </p>
                   {/* <div className="newsletter-form">
                     <h5 className="form-title">Join Newsletters</h5>
@@ -84,20 +84,18 @@ const Footer = ({ footerSolidBg }) => {
                   <h4 className="widget-title">Support</h4>
                   <ul>
                     <li>
-                      <Link href="/about">Privacy Policy</Link>
+                      <Link href="/faq">Faq</Link>
                     </li>
                     <li>
-                      <Link href="/apply">Conditions</Link>
+                      <Link href="/team">The Team</Link>
                     </li>
                     <li>
-                      <Link href="/company-overview">Company</Link>
+                      <Link href="mailto:hubswitchafrica@gmail.com?subject=Hubswitch Partnership">Partnership</Link>
                     </li>
                     <li>
-                      <Link href="/faq">Faq &amp; Terms</Link>
+                      <Link href="/donate">Donate</Link>
                     </li>
-                    <li>
-                      <Link href="/apply">Contact Us</Link>
-                    </li>
+                    
                   </ul>
                 </div>
               </div>
@@ -141,11 +139,7 @@ const Footer = ({ footerSolidBg }) => {
             <div className="row flex-md-row-reverse">
               <div className="col-md-6">
                 <ul className="social-icons">
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                  </li>
+                  
                   <li>
                     <a href="#">
                       <i className="fab fa-twitter" />
@@ -153,19 +147,16 @@ const Footer = ({ footerSolidBg }) => {
                   </li>
                   <li>
                     <a href="#">
+                      <i className="fab fa-facebook" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
                       <i className="fab fa-youtube" />
                     </a>
                   </li>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-behance" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-google-plus-g" />
-                    </a>
-                  </li>
+                  
+                
                 </ul>
               </div>
               <div className="col-md-6">
