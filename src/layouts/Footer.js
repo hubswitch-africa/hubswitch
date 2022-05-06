@@ -43,7 +43,7 @@ const Footer = ({ footerSolidBg }) => {
                   <p>
                     Sed ut perspiciatis unde omn iste natus error sit voluptatem
                   </p>
-                  <div className="newsletter-form">
+                  {/* <div className="newsletter-form">
                     <h5 className="form-title">Join Newsletters</h5>
                     <form onSubmit={(e) => e.preventDefault()} action="#">
                       <input type="text" placeholder="Email Address" />
@@ -51,7 +51,7 @@ const Footer = ({ footerSolidBg }) => {
                         <i className="far fa-arrow-right" />
                       </button>
                     </form>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="col-lg-2 col-md-5 col-sm-6">
