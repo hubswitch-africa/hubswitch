@@ -84,20 +84,18 @@ const Footer = ({ footerSolidBg }) => {
                   <h4 className="widget-title">Support</h4>
                   <ul>
                     <li>
-                      <Link href="/about">Privacy Policy</Link>
+                      <Link href="/faq">Faq</Link>
                     </li>
                     <li>
-                      <Link href="/apply">Conditions</Link>
+                      <Link href="/team">The Team</Link>
                     </li>
                     <li>
-                      <Link href="/company-overview">Company</Link>
+                      <Link href="mailto:hubswitchafrica@gmail.com?subject=Hubswitch Partnership">Partnership</Link>
                     </li>
                     <li>
-                      <Link href="/faq">Faq &amp; Terms</Link>
+                      <Link href="/donate">Donate</Link>
                     </li>
-                    <li>
-                      <Link href="/apply">Contact Us</Link>
-                    </li>
+                    
                   </ul>
                 </div>
               </div>
