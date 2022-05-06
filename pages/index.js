@@ -793,10 +793,10 @@ const Index2 = () => {
                   className="cta-box cta-primary-overly"
                   style={{ backgroundImage: "url(assets/img/cta/02.jpg)" }}
                 >
-                  <h2 className="cta-title">Start Fundraising?</h2>
+                  <h2 className="cta-title">Partnership</h2>
                   <p>
-                    Quis autem vel eum iure reprehenderit quien voluptate velit
-                    esse quam nihil molestiae consequatur illum dolorem
+                    Do you want to show your care for tech talent in Africa?
+                    <br/> Become a Partner
                   </p>
                   <Link href="mailto:hubswitchafrica@gmail.com?subject=Hubswitch Partnership">
                     <a className="main-btn btn-white">
@@ -810,12 +810,12 @@ const Index2 = () => {
                   className="cta-box mt-40"
                   style={{ backgroundImage: "url(assets/img/cta/03.jpg)" }}
                 >
-                  <h2 className="cta-title">Start Fundraising?</h2>
+                  <h2 className="cta-title">Donations</h2>
                   <p>
-                    Quis autem vel eum iure reprehenderit quien voluptate velit
-                    esse quam nihil molestiae consequatur illum dolorem
+                      You can support the growth of an African techie via sponsorship
+                      <br/> Donate
                   </p>
-                  <Link href="mailto:hubswitchafrica@gmail.com?subject=Hubswitch Partnership">
+                  <Link href="/donate">
                     <a className="main-btn">
                       Become a partner <i className="far fa-arrow-right" />
                     </a>
