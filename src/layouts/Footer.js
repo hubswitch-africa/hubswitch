@@ -139,11 +139,7 @@ const Footer = ({ footerSolidBg }) => {
             <div className="row flex-md-row-reverse">
               <div className="col-md-6">
                 <ul className="social-icons">
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                  </li>
+                  
                   <li>
                     <a href="#">
                       <i className="fab fa-twitter" />
@@ -151,19 +147,16 @@ const Footer = ({ footerSolidBg }) => {
                   </li>
                   <li>
                     <a href="#">
+                      <i className="fab fa-facebook" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
                       <i className="fab fa-youtube" />
                     </a>
                   </li>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-behance" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-google-plus-g" />
-                    </a>
-                  </li>
+                  
+                
                 </ul>
               </div>
               <div className="col-md-6">
