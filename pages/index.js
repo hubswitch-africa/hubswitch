@@ -114,13 +114,17 @@ const Index2 = () => {
                       <span className="heading-shadow-text">About Us</span>
                     </span>
                     <h2 className="title">
-                      We Help How To Improve Product Marketing
-                    </h2>
+                      Changing Africa. Five lives at a time
+                      </h2>
                   </div>
                   <p>
-                    Sedut perspiciatis unde omnis iste natus voluptatem accusan
-                    tium dolore dantiumy totam rem apeam, eaque ipsa quaventore
-                    veritatis quasi architecto beatae.
+                  At Hubswitch Africa, we’re just as passionate about
+                   changing lives for the better, as you are. 
+                   That’s why we’re aiming to raise more money to directly benefit talented 
+                   Africans with an interest in tech, than any other organization in Africa.
+                    We hope you’ll continue to support us in our mission to bring young
+                     Africans into the tech space.
+
                   </p>
                   <ul className="check-list mt-30">
                     <li>
@@ -145,14 +149,14 @@ const Index2 = () => {
               </div>
               <div className="col-xl-5 order-xl-1 wow fadeInUp">
                 <div className="about-curved-img">
-                  <img src="assets/home1.jpg" alt="Image" />
+                  <img src="assets/img/hero/home1.jpg" alt="Image" />
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div className="about-shape">
-          <img src="assets/img/about/about-shape.png" alt="Shape" />
+          <img src="assets/img/footer-bg.jpg" alt="Shape" />
         </div>
       </section>
       {/*====== About Section End ======*/}
