@@ -7,13 +7,13 @@ const DonateBtn = ({ children, individual, organization, mode }) => {
         <a
           href={
             mode === "Card"
-              ? "https://paystack.com/pay/hubswitch"
+              ? "https://rb.gy/hs7cqv"
               : mode === "Bank"
               ? "uri"
               : mode === "Crypto"
-              ? "https://lazerpay.finance/donate/individual-donation-6wvr2sw"
+              ? "https://rb.gy/1qamz5"
               : !children
-              ? "https://paystack.com/pay/hubswitch"
+              ? "https://rb.gy/hs7cqv"
               : null
           }
           className="donate-btn"
@@ -24,13 +24,13 @@ const DonateBtn = ({ children, individual, organization, mode }) => {
         <a
           href={
             mode === "Card"
-              ? "https://paystack.com/pay/hubswitchorg"
+              ? "https://rb.gy/kvlvnr"
               : mode === "Bank"
               ? "uri"
               : mode === "Crypto"
               ? "uri"
               : !children
-              ? "https://paystack.com/pay/hubswitchorg"
+              ? "https://rb.gy/kvlvnr"
               : null
           }
           className="donate-btn"
