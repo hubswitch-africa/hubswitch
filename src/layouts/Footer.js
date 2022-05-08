@@ -41,7 +41,7 @@ const Footer = ({ footerSolidBg }) => {
                     <img src="assets/img/logo2-trans.png" alt="Hubswitch" />
                   </div>
                   <p>
-                    Changing Africa. Five lives a time
+                    A haven for beautiful minds ⚡
                   </p>
                   {/* <div className="newsletter-form">
                     <h5 className="form-title">Join Newsletters</h5>
