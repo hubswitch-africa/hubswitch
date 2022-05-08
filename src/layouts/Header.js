@@ -50,12 +50,7 @@ const Header = ({ transparentTop, transparentHeader, topSecondaryBg }) => {
                 </li>
                 <li>
                   <a href="#">
-                    <i className="fab fa-behance" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-google-plus-g" />
+                    <i className="fab fa-instagram" />
                   </a>
                 </li>
               </ul>

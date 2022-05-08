@@ -70,12 +70,6 @@ const Footer = ({ footerSolidBg }) => {
                     <li>
                       <Link href="/project-3">Web Development</Link>
                     </li>
-                    <li>
-                      <Link href="/project-2">Food &amp; Clothes</Link>
-                    </li>
-                    <li>
-                      <Link href="/project-1">Video &amp; Movies</Link>
-                    </li>
                   </ul>
                 </div>
               </div>
@@ -83,9 +77,6 @@ const Footer = ({ footerSolidBg }) => {
                 <div className="widget nav-widget">
                   <h4 className="widget-title">Support</h4>
                   <ul>
-                    <li>
-                      <Link href="/faq">Faq</Link>
-                    </li>
                     <li>
                       <Link href="/team">The Team</Link>
                     </li>
@@ -95,7 +86,9 @@ const Footer = ({ footerSolidBg }) => {
                     <li>
                       <Link href="/donate">Donate</Link>
                     </li>
-                    
+                    <li>
+                      <Link href="/faq">Faq</Link>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -147,7 +140,7 @@ const Footer = ({ footerSolidBg }) => {
                   </li>
                   <li>
                     <a href="#">
-                      <i className="fab fa-facebook" />
+                      <i className="fab fa-instagram" />
                     </a>
                   </li>
                   <li>
