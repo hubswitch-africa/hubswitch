@@ -26,9 +26,9 @@ const Index2 = () => {
                 </p>
                 <ul className="hero-btn">
                   <li className="wow fadeInUp" data-wow-delay="0.4s">
-                    <Link href="/project-2">
+                    <Link href="/apply">
                       <a className="main-btn">
-                        Explore Projects <i className="far fa-arrow-right" />
+                        Apply <i className="far fa-arrow-right" />
                       </a>
                     </Link>
                   </li>
