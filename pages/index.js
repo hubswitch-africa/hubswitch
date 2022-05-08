@@ -796,7 +796,6 @@ const Index2 = () => {
                   <h2 className="cta-title">Partnership</h2>
                   <p>
                     Do you want to show your care for tech talent in Africa?
-                    <br/> Become a Partner
                   </p>
                   <Link href="mailto:hubswitchafrica@gmail.com?subject=Hubswitch Partnership">
                     <a className="main-btn btn-white">
@@ -813,11 +812,10 @@ const Index2 = () => {
                   <h2 className="cta-title">Donations</h2>
                   <p>
                       You can support the growth of an African techie via sponsorship
-                      <br/> Donate
                   </p>
                   <Link href="/donate">
                     <a className="main-btn">
-                      Become a partner <i className="far fa-arrow-right" />
+                      Donate <i className="far fa-arrow-right" />
                     </a>
                   </Link>
                 </div>
