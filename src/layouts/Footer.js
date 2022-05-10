@@ -75,7 +75,7 @@ const Footer = ({ footerSolidBg }) => {
               </div>
               <div className="col-lg-2 col-md-6 col-sm-6">
                 <div className="widget nav-widget">
-                  <h4 className="widget-title">Support</h4>
+                  <h4 className="widget-title">Other</h4>
                   <ul>
                     <li>
                       <Link href="/team">The Team</Link>

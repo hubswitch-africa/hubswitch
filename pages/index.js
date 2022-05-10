@@ -126,20 +126,7 @@ const Index2 = () => {
                      Africans into the tech space.
 
                   </p>
-                  <ul className="check-list mt-30">
-                    <li>
-                      <h5 className="title">Highest Success Rates</h5>
-                      <p>Quis autem vel eum iure reprehenderit quin</p>
-                    </li>
-                    <li>
-                      <h5 className="title">Raise Funds With Crowdfunding</h5>
-                      <p>Voluptate esse quam nihil molestiae consequatur</p>
-                    </li>
-                    <li>
-                      <h5 className="title">Millions in Funding</h5>
-                      <p>Accusan tium dolore dantiumy totam apeam</p>
-                    </li>
-                  </ul>
+                  
                   <Link href="/about">
                     <a className="main-btn btn-dark mt-40">
                       Learn More <i className="far fa-arrow-right" />
@@ -294,129 +281,8 @@ const Index2 = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-sm-10">
-              <div className="project-item mt-30">
-                <div
-                  className="thumb"
-                  style={{
-                    backgroundImage:
-                      "url(assets/img/project/project-grid-04.jpg)",
-                  }}
-                />
-                <div className="content">
-                  <div className="cats">
-                    <Link href="/project-1">Clothes</Link>
-                  </div>
-                  <div className="author">
-                    <img src="assets/img/author-thumbs/01.jpg" alt="Thumb" />
-                    <Link href="/project-details">James W. Barrows</Link>
-                  </div>
-                  <h5 className="title">
-                    <Link href="/project-details">
-                      <a>
-                        Fundraising For The People And Causes You Care About
-                      </a>
-                    </Link>
-                  </h5>
-                  <div className="project-stats">
-                    <div className="stats-value">
-                      <span className="value-title">
-                        Raised of <span className="value">$59,689</span>
-                      </span>
-                      <span className="stats-percentage">83%</span>
-                    </div>
-                    <div className="stats-bar" data-value={83}>
-                      <div className="bar-line" />
-                    </div>
-                  </div>
-                  <span className="date">
-                    <i className="far fa-calendar-alt" /> 25 February 2021
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-10">
-              <div className="project-item mt-30">
-                <div
-                  className="thumb"
-                  style={{
-                    backgroundImage:
-                      "url(assets/img/project/project-grid-05.jpg)",
-                  }}
-                />
-                <div className="content">
-                  <div className="cats">
-                    <Link href="/project-1">Covid -19</Link>
-                  </div>
-                  <div className="author">
-                    <img src="assets/img/author-thumbs/02.jpg" alt="Thumb" />
-                    <Link href="/project-details">James W. Barrows</Link>
-                  </div>
-                  <h5 className="title">
-                    <Link href="/project-details">
-                      <a>
-                        COVID-19 Vaccine Have Already Begun Introduced Countries
-                      </a>
-                    </Link>
-                  </h5>
-                  <div className="project-stats">
-                    <div className="stats-value">
-                      <span className="value-title">
-                        Raised of <span className="value">$59,689</span>
-                      </span>
-                      <span className="stats-percentage">93%</span>
-                    </div>
-                    <div className="stats-bar" data-value={93}>
-                      <div className="bar-line" />
-                    </div>
-                  </div>
-                  <span className="date">
-                    <i className="far fa-calendar-alt" /> 25 February 2021
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-10">
-              <div className="project-item mt-30">
-                <div
-                  className="thumb"
-                  style={{
-                    backgroundImage:
-                      "url(assets/img/project/project-grid-06.jpg)",
-                  }}
-                />
-                <div className="content">
-                  <div className="cats">
-                    <Link href="/project-1">Business</Link>
-                  </div>
-                  <div className="author">
-                    <img src="assets/img/author-thumbs/03.jpg" alt="Thumb" />
-                    <Link href="/project-details">James W. Barrows</Link>
-                  </div>
-                  <h5 className="title">
-                    <Link href="/project-details">
-                      <a>
-                        Mobile First Is Just Not Goodies Enough Meet Journey
-                      </a>
-                    </Link>
-                  </h5>
-                  <div className="project-stats">
-                    <div className="stats-value">
-                      <span className="value-title">
-                        Raised of <span className="value">$59,689</span>
-                      </span>
-                      <span className="stats-percentage">70%</span>
-                    </div>
-                    <div className="stats-bar" data-value={70}>
-                      <div className="bar-line" />
-                    </div>
-                  </div>
-                  <span className="date">
-                    <i className="far fa-calendar-alt" /> 25 February 2021
-                  </span>
-                </div>
-              </div>
-            </div>
+            
+            
           </div>
         </div>
       </section>
