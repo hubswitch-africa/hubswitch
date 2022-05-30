@@ -83,18 +83,17 @@ const About = () => {
             >
               <div className="icon-box mt-30">
                 <div className="icon">
-                  <i className="flaticon-support" />
+                  {/* <i className="flaticon-support" /> */}
                 </div>
                 <h5 className="title">Community Support</h5>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium totam
+                We offer help through our different disconnected and online networks. With astounding projects and drives to continuously keep you drew in, you never run out of organization, assets and mentorship.
                 </p>
-                <Link href="/project-details">
+                {/* <Link href="/project-details">
                   <a className="link">
                     <i className="far fa-arrow-right" />
                   </a>
-                </Link>
+                </Link> */}
                 <span className="box-index">01</span>
                 <div className="box-img">
                   <img src="assets/img/icon-box-bg.jpg" alt="image" />
@@ -107,19 +106,17 @@ const About = () => {
             >
               <div className="icon-box mt-30">
                 <div className="icon">
-                  <i className="flaticon-check" />
-                  <i className="fi fi-rr-chart-histogram"></i>
+                  {/* <i className="flaticon-check" /> */}
                 </div>
                 <h5 className="title">Monitored Growth</h5>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium totam
+                We give assets and screen your development constantly through ordinary registrations to guarantee you are hitting your own and profession objectives.
                 </p>
-                <Link href="/project-details">
+                {/* <Link href="/project-details">
                   <a className="link">
                     <i className="far fa-arrow-right" />
                   </a>
-                </Link>
+                </Link> */}
                 <span className="box-index">02</span>
                 <div className="box-img">
                   <img src="assets/img/icon-box-bg.jpg" alt="image" />
@@ -132,18 +129,17 @@ const About = () => {
             >
               <div className="icon-box mt-30">
                 <div className="icon">
-                  <i className="flaticon-wallet-1" />
+                  {/* <i className="flaticon-wallet-1" /> */}
                 </div>
                 <h5 className="title">Exposure To Open Source</h5>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium totam
+                A people group zeroed in on carrying individuals into the tech space, and assisting them with developing their vocations by adding to open-source.
                 </p>
-                <Link href="/project-details">
+                {/* <Link href="/project-details">
                   <a className="link">
                     <i className="far fa-arrow-right" />
                   </a>
-                </Link>
+                </Link> */}
                 <span className="box-index">03</span>
                 <div className="box-img">
                   <img src="assets/img/icon-box-bg.jpg" alt="image" />
@@ -156,18 +152,17 @@ const About = () => {
             >
               <div className="icon-box mt-30">
                 <div className="icon">
-                  <i className="flaticon-house" />
+                  {/* <i className="flaticon-house" /> */}
                 </div>
                 <h5 className="title">Peer Learning</h5>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium totam
+                Connect and meet with different people in tech in Africa who have strolled or are strolling in a similar way as you are and can relate with your experience while aiding you on your excursion.
                 </p>
-                <Link href="/project-details">
+                {/* <Link href="/project-details">
                   <a className="link">
                     <i className="far fa-arrow-right" />
                   </a>
-                </Link>
+                </Link> */}
                 <span className="box-index">04</span>
                 <div className="box-img">
                   <img src="assets/img/icon-box-bg.jpg" alt="image" />
@@ -180,18 +175,17 @@ const About = () => {
             >
               <div className="icon-box mt-30">
                 <div className="icon">
-                  <i className="flaticon-resources" />
+                  {/* <i className="flaticon-resources" /> */}
                 </div>
                 <h5 className="title">Ulimited Learning Resources</h5>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium totam
+                We give them satisfactory learning materials, concentrated instructional courses and conceptualizing undertakings to make them industry standard engineers.
                 </p>
-                <Link href="/project-details">
+                {/* <Link href="/project-details">
                   <a className="link">
                     <i className="far fa-arrow-right" />
                   </a>
-                </Link>
+                </Link> */}
                 <span className="box-index">05</span>
                 <div className="box-img">
                   <img src="assets/img/icon-box-bg.jpg" alt="image" />
