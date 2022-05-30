@@ -1,11 +1,11 @@
 import Link from "next/dist/client/link";
 import { useState } from "react";
-import Slider from "react-slick";
-import Counter from "../src/components/Counter";
+// import Slider from "react-slick";
+// import Counter from "../src/components/Counter";
 import PageBanner from "../src/components/PageBanner";
 import VideoPopup from "../src/components/VideoPopup";
 import Layout from "../src/layouts/Layout";
-import { teamSlider } from "../src/sliderProps";
+// import { teamSlider } from "../src/sliderProps";
 
 const About = () => {
   const [video, setVideo] = useState(false);
@@ -24,26 +24,24 @@ const About = () => {
                     <span className="heading-shadow-text">About Us</span>
                   </span>
                   <h2 className="title">
-                    We Help How To Improve Product Marketing
+                    Empowering Africans with Technology.
                   </h2>
                 </div>
                 <p>
-                  Sedut perspiciatis unde omnis iste natus voluptatem accusan
-                  tium dolore dantiumy totam rem apeam, eaque ipsa quaventore
-                  veritatis quasi architecto beatae.
+                At Hubswitch Africa, we empower young Africans with software engineering skills needed to secure job placement in the industry.
                 </p>
                 <ul className="check-list mt-30">
                   <li className="wow fadeInUp" data-wow-delay="0s">
-                    <h5 className="title">Highest Success Rates</h5>
-                    <p>Quis autem vel eum iure reprehenderit quin</p>
+                    <h5 className="title">From Zero to Hero</h5>
+                    <p>Don't have a computer background, Not a problem.</p>
                   </li>
                   <li className="wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 className="title">Raise Funds With Crowdfunding</h5>
-                    <p>Voluptate esse quam nihil molestiae consequatur</p>
+                    <h5 className="title">Practice-based Learning</h5>
+                    <p>We introduce you to open source projects</p>
                   </li>
                   <li className="wow fadeInUp" data-wow-delay="0.2s">
-                    <h5 className="title">Millions in Funding</h5>
-                    <p>Accusan tium dolore dantiumy totam apeam</p>
+                    <h5 className="title">Growing Slack Community</h5>
+                    <p>We have new members joining weekly</p>
                   </li>
                 </ul>
               </div>
@@ -73,10 +71,10 @@ const About = () => {
         <div className="container">
           <div className="common-heading text-center mb-30">
             <span className="tagline">
-              <i className="fas fa-plus" /> What We Do
-              <span className="heading-shadow-text">Features</span>
+              <i className="fas fa-plus" /> Member Benefits
+              <span className="heading-shadow-text">Benefits</span>
             </span>
-            <h2 className="title">Why choose us</h2>
+            <h2 className="title">Why join us</h2>
           </div>
           <div className="row icon-boxes justify-content-center">
             <div
@@ -85,21 +83,20 @@ const About = () => {
             >
               <div className="icon-box mt-30">
                 <div className="icon">
-                  <i className="flaticon-debit-card" />
+                  {/* <i className="flaticon-support" /> */}
                 </div>
-                <h5 className="title">Fast &amp; Easy Payouts</h5>
+                <h5 className="title">Community Support</h5>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium totam
+                We offer help through our different disconnected and online networks. With astounding projects and drives to continuously keep you drew in, you never run out of organization, assets and mentorship.
                 </p>
-                <Link href="/project-details">
+                {/* <Link href="/project-details">
                   <a className="link">
                     <i className="far fa-arrow-right" />
                   </a>
-                </Link>
+                </Link> */}
                 <span className="box-index">01</span>
                 <div className="box-img">
-                  <img src="assets/img/icon-box-bg.jpg" alt="image" />
+                  {/* <img src="assets/img/icon-box-bg.jpg" alt="image" /> */}
                 </div>
               </div>
             </div>
@@ -109,21 +106,20 @@ const About = () => {
             >
               <div className="icon-box mt-30">
                 <div className="icon">
-                  <i className="flaticon-payment" />
+                  {/* <i className="flaticon-check" /> */}
                 </div>
-                <h5 className="title">Global Payment Processing</h5>
+                <h5 className="title">Monitored Growth</h5>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium totam
+                We give assets and screen your development constantly through ordinary registrations to guarantee you are hitting your own and profession objectives.
                 </p>
-                <Link href="/project-details">
+                {/* <Link href="/project-details">
                   <a className="link">
                     <i className="far fa-arrow-right" />
                   </a>
-                </Link>
+                </Link> */}
                 <span className="box-index">02</span>
                 <div className="box-img">
-                  <img src="assets/img/icon-box-bg.jpg" alt="image" />
+                  {/* <img src="assets/img/icon-box-bg.jpg" alt="image" /> */}
                 </div>
               </div>
             </div>
@@ -133,21 +129,66 @@ const About = () => {
             >
               <div className="icon-box mt-30">
                 <div className="icon">
-                  <i className="flaticon-wallet-1" />
+                  {/* <i className="flaticon-wallet-1" /> */}
                 </div>
-                <h5 className="title">Many Payment Options</h5>
+                <h5 className="title">Exposure To Open Source</h5>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium totam
+                A people group zeroed in on carrying individuals into the tech space, and assisting them with developing their vocations by adding to open-source.
                 </p>
-                <Link href="/project-details">
+                {/* <Link href="/project-details">
                   <a className="link">
                     <i className="far fa-arrow-right" />
                   </a>
-                </Link>
+                </Link> */}
                 <span className="box-index">03</span>
                 <div className="box-img">
-                  <img src="assets/img/icon-box-bg.jpg" alt="image" />
+                  {/* <img src="assets/img/icon-box-bg.jpg" alt="image" /> */}
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp"
+              data-wow-delay="0.2s"
+            >
+              <div className="icon-box mt-30">
+                <div className="icon">
+                  {/* <i className="flaticon-house" /> */}
+                </div>
+                <h5 className="title">Peer Learning</h5>
+                <p>
+                Connect and meet with different people in tech in Africa who have strolled or are strolling in a similar way as you are and can relate with your experience while aiding you on your excursion.
+                </p>
+                {/* <Link href="/project-details">
+                  <a className="link">
+                    <i className="far fa-arrow-right" />
+                  </a>
+                </Link> */}
+                <span className="box-index">04</span>
+                <div className="box-img">
+                  {/* <img src="assets/img/icon-box-bg.jpg" alt="image" /> */}
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp"
+              data-wow-delay="0.3s"
+            >
+              <div className="icon-box mt-30">
+                <div className="icon">
+                  {/* <i className="flaticon-resources" /> */}
+                </div>
+                <h5 className="title">Ulimited Learning Resources</h5>
+                <p>
+                We give them satisfactory learning materials, concentrated instructional courses and conceptualizing undertakings to make them industry standard engineers.
+                </p>
+                {/* <Link href="/project-details">
+                  <a className="link">
+                    <i className="far fa-arrow-right" />
+                  </a>
+                </Link> */}
+                <span className="box-index">05</span>
+                <div className="box-img">
+                  {/* <img src="assets/img/icon-box-bg.jpg" alt="image" /> */}
                 </div>
               </div>
             </div>
@@ -156,7 +197,7 @@ const About = () => {
       </section>
       {/*====== Feature Section End ======*/}
       {/*====== Team section Start ======*/}
-      <section className="team-slider-area">
+      {/* <section className="team-slider-area">
         <div className="container mb-20">
           <div className="row align-items-center justify-content-between">
             <div className="col-lg-6">
@@ -498,10 +539,10 @@ const About = () => {
             </div>
           </Slider>
         </div>
-      </section>
+      </section> */}
       {/*====== Team section End ======*/}
       {/*====== Counter With Image Text Block Start ======*/}
-      <section className="counter-with-video">
+      {/* <section className="counter-with-video">
         <div className="video-area">
           <div className="container">
             <div className="funden-video">
@@ -590,10 +631,10 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/*====== Counter With Image Text Block End ======*/}
       {/*====== Testimonials Start ======*/}
-      <section className="testimonials-section section-gap">
+      {/* <section className="testimonials-section section-gap">
         <div className="container">
           <div className="common-heading text-center mb-30">
             <span className="tagline">
@@ -845,10 +886,10 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/*====== Testimonials End ======*/}
       {/*====== Partners Section With CTA Start ======*/}
-      <section className="partners-section">
+      {/* <section className="partners-section">
         <div className="container">
           <div className="partners-logos partners-section-padding section-border-top">
             <div className="row partners-logos-two">
@@ -927,7 +968,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </Layout>
   );
 };
