@@ -96,7 +96,7 @@ const About = () => {
                 </Link> */}
                 <span className="box-index">01</span>
                 <div className="box-img">
-                  <img src="assets/img/icon-box-bg.jpg" alt="image" />
+                  {/* <img src="assets/img/icon-box-bg.jpg" alt="image" /> */}
                 </div>
               </div>
             </div>
@@ -119,7 +119,7 @@ const About = () => {
                 </Link> */}
                 <span className="box-index">02</span>
                 <div className="box-img">
-                  <img src="assets/img/icon-box-bg.jpg" alt="image" />
+                  {/* <img src="assets/img/icon-box-bg.jpg" alt="image" /> */}
                 </div>
               </div>
             </div>
@@ -142,7 +142,7 @@ const About = () => {
                 </Link> */}
                 <span className="box-index">03</span>
                 <div className="box-img">
-                  <img src="assets/img/icon-box-bg.jpg" alt="image" />
+                  {/* <img src="assets/img/icon-box-bg.jpg" alt="image" /> */}
                 </div>
               </div>
             </div>
@@ -165,7 +165,7 @@ const About = () => {
                 </Link> */}
                 <span className="box-index">04</span>
                 <div className="box-img">
-                  <img src="assets/img/icon-box-bg.jpg" alt="image" />
+                  {/* <img src="assets/img/icon-box-bg.jpg" alt="image" /> */}
                 </div>
               </div>
             </div>
@@ -188,7 +188,7 @@ const About = () => {
                 </Link> */}
                 <span className="box-index">05</span>
                 <div className="box-img">
-                  <img src="assets/img/icon-box-bg.jpg" alt="image" />
+                  {/* <img src="assets/img/icon-box-bg.jpg" alt="image" /> */}
                 </div>
               </div>
             </div>

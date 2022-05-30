@@ -304,7 +304,7 @@ const Index2 = () => {
                 <div className="fancy-icon-list">
                   <div className="fancy-list-item">
                     <div className="icon">
-                      <i className="flaticon-debit-card" />
+                      {/* <i className="flaticon-debit-card" /> */}
                     </div>
                     <div className="content">
                       <h4 className="title">Structured Curriculum</h4>
@@ -315,7 +315,7 @@ const Index2 = () => {
                   </div>
                   <div className="fancy-list-item">
                     <div className="icon">
-                      <i className="flaticon-payment" />
+                      {/* <i className="flaticon-payment" /> */}
                     </div>
                     <div className="content">
                       <h4 className="title">Contibute to open source</h4>
@@ -326,7 +326,7 @@ const Index2 = () => {
                   </div>
                   <div className="fancy-list-item">
                     <div className="icon">
-                      <i className="flaticon-wallet-1" />
+                      {/* <i className="flaticon-wallet-1" /> */}
                     </div>
                     <div className="content">
                       <h4 className="title">Technical growth</h4>
