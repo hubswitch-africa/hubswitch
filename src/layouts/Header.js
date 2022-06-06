@@ -71,9 +71,10 @@ const Header = ({ transparentTop, transparentHeader, topSecondaryBg }) => {
             <div className="nav-menu" id="menu">
               <ul>
                 <li>
-                  <Link href="/">
-                    Home
-                  </Link>
+                  <Link href="/">Home</Link>
+                </li>
+                <li>
+                  <Link href="/about">About</Link>
                 </li>
                 <Fragment>
                 <li>
@@ -82,8 +83,6 @@ const Header = ({ transparentTop, transparentHeader, topSecondaryBg }) => {
                   </Link>
                 </li>
                 </Fragment>
-               
-               
                 <Fragment>
                 <li>
                   <Link href="/donate">
