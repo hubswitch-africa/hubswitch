@@ -113,8 +113,8 @@ const Index2 = () => {
                       <span className="heading-shadow-text">About Us</span>
                     </span>
                     <h2 className="title">
-                      Changing Africa. Five lives at a time
-                      </h2>
+                      Empowering Africans with Technology.
+                    </h2>
                   </div>
                   <p className="text-dark">
                     At Hubswitch Africa, we're passionate about
@@ -126,7 +126,7 @@ const Index2 = () => {
                     technologies, to enable them build a better Africa.
                   </p>
                   
-                  <Link href="#about">
+                  <Link href="/about">
                     <a className="main-btn btn-dark mt-40">
                       Learn More <i className="far fa-arrow-right" />
                     </a>
