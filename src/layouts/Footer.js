@@ -39,8 +39,9 @@ const Footer = ({ footerSolidBg }) => {
                 <div className="widget about-widget">
                   <div className="footer-logo">
                     <Link href="/">
-                    <img src="assets/img/logo2-trans.png" alt="Hubswitch" />
+                    <img src="assets/img/footerLogo1.png" alt="Hubswitch" />
                     </Link>
+                    <h3 className="text-white my-0">Hubswitch Africa</h3>
                   </div>
                   <p>
                     A haven for beautiful minds ⚡
