@@ -17,7 +17,7 @@ const Donate = () => {
   return (
     <Layout>
       <PageBanner pageName="Donate" />
-      <section className="donate-section section-gap-two primary-soft-bg">
+      <section className="donate-section section-gap-two primary-soft-bg mb-5">
         <div className="container">
           <div className="row donate-boxes justify-content-center">
             <div

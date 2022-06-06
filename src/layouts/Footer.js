@@ -102,7 +102,7 @@ const Footer = ({ footerSolidBg }) => {
                       </span>
                       <span className="info">
                         <span className="info-title">Phone Number</span>
-                        <a href="#">+234 902 581 6370</a>
+                        <a href="tel:+2349025816370">+234 902 581 6370</a>
                       </span>
                     </li>
                     <li>
@@ -111,7 +111,7 @@ const Footer = ({ footerSolidBg }) => {
                       </span>
                       <span className="info">
                         <span className="info-title">Email Address</span>
-                        <a href="#">hubswitchafrica@gmail.com</a>
+                        <a href="mailto:hubswitchafrica@gmail.com">hubswitchafrica@gmail.com</a>
                       </span>
                     </li>
                     <li>
@@ -154,7 +154,7 @@ const Footer = ({ footerSolidBg }) => {
               </div>
               <div className="col-md-6">
                 <p className="copyright-text">
-                  © {new Date().getFullYear()} <a href="#">Hubswitch</a>. All
+                  &copy; {new Date().getFullYear()} <a href="#">Hubswitch</a>. All
                   Rights Reserved
                 </p>
               </div>
