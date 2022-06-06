@@ -116,17 +116,17 @@ const Index2 = () => {
                       Changing Africa. Five lives at a time
                       </h2>
                   </div>
-                  <p>
-                  At Hubswitch Africa, we’re just as passionate about
-                   changing lives for the better, as you are. 
-                   That’s why we’re aiming to raise more money to directly benefit talented 
-                   Africans with an interest in tech, than any other organization in Africa.
-                    We hope you’ll continue to support us in our mission to bring young
-                     Africans into the tech space.
-
+                  <p className="text-dark">
+                    At Hubswitch Africa, we're passionate about
+                    changing lives for the better. 
+                    Our aim is to directly benefit talented 
+                    Africans with an interest in tech, providing them with proper learning guide,
+                    and an enabling community.
+                    We hope to build a future where every African has on-demand access to industry-relevant
+                    technologies, to enable them build a better Africa.
                   </p>
                   
-                  <Link href="/about">
+                  <Link href="#about">
                     <a className="main-btn btn-dark mt-40">
                       Learn More <i className="far fa-arrow-right" />
                     </a>
@@ -287,7 +287,7 @@ const Index2 = () => {
       </section> */}
       {/*====== Project Section End ======*/}
       {/*====== Feature Section Start ======*/}
-      <section className="feature-section feature-section-one section-gap">
+      <section className="feature-section feature-section-one section-gap" id="about">
         <div className="container">
           <div className="row justify-content-lg-between justify-content-center align-items-center">
             <div className="col-xl-4 col-lg-5 col-md-8 col-sm-10">
@@ -303,7 +303,7 @@ const Index2 = () => {
                 <div className="fancy-icon-list">
                   <div className="fancy-list-item">
                     <div className="icon">
-                      <img src="assets/img/hero/open_source.svg" width={200} />
+                      <img src="assets/img/hero/working_remotely.svg" width={200} />
                       {/* <i className="flaticon-debit-card" /> */}
                     </div>
                     <div className="content">
@@ -315,7 +315,7 @@ const Index2 = () => {
                   </div>
                   <div className="fancy-list-item">
                     <div className="icon">
-                    <img src="assets/img/hero/open_source.svg" width={200} />
+                    <img src="assets/img/hero/open_source.svg" width={180} />
                       {/* <i className="flaticon-payment" /> */}
                     </div>
                     <div className="content">
@@ -327,7 +327,7 @@ const Index2 = () => {
                   </div>
                   <div className="fancy-list-item">
                     <div className="icon">
-                    <img src="assets/img/hero/open_source.svg" width={200} />
+                    <img src="assets/img/hero/shared_workspace.svg" width={150} />
                       {/* <i className="flaticon-wallet-1" /> */}
                     </div>
                     <div className="content">
@@ -522,7 +522,7 @@ const Index2 = () => {
                   <i className="fas fa-plus" /> members Feedback
                   <span className="heading-shadow-text">Testimonials</span>
                 </span>
-                <h2 className="title">{`What People's Say`}</h2>
+                <h2 className="title">{`What Our Members Say`}</h2>
               </div>
               <div className="testimonial-boxes">
                 <div
@@ -540,8 +540,8 @@ const Index2 = () => {
                       reprehenderit qui in ea voluptate"`}
                     </p>
                     <div className="author-info">
-                      <h5 className="name">Howard A. Guest</h5>
-                      <p className="position">Web Developer</p>
+                      <h5 className="name">Ebenezer Osaerhabor</h5>
+                      <p className="position">Frontend Developer</p>
                     </div>
                   </div>
                   <div className="rating-wrap">
@@ -579,8 +579,8 @@ const Index2 = () => {
                       that they cannot foresee"`}
                     </p>
                     <div className="author-info">
-                      <h5 className="name">Randall S. Rosenow</h5>
-                      <p className="position">CEO &amp; Founder</p>
+                      <h5 className="name">Amaka Joseph</h5>
+                      <p className="position">Frontend Developer</p>
                     </div>
                   </div>
                   <div className="rating-wrap">
@@ -618,8 +618,8 @@ const Index2 = () => {
                       cupiditate"`}
                     </p>
                     <div className="author-info">
-                      <h5 className="name">Christopher D. Greer</h5>
-                      <p className="position">Senior Manager</p>
+                      <h5 className="name">Opeoluwa Adejumo</h5>
+                      <p className="position">Full-stack Web</p>
                     </div>
                   </div>
                   <div className="rating-wrap">
