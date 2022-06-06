@@ -49,15 +49,16 @@ const About = () => {
             <div className="col-xl-7 col-lg-8 col-md-10">
               <div className="about-gallery wow fadeInRight">
                 <div className="img-one">
-                  <img src="assets/img/about/about-gallery-1.jpg" alt="Image" />
+                  <img src="assets/img/hero/home1.jpg" alt="Image" />
                 </div>
                 <div className="img-two wow fadeInUp">
-                  <img src="assets/img/about/about-gallery-2.jpg" alt="Image" />
+                  <img src="assets/img/hero/hand1.jpg" width={215} alt="Image" />
                 </div>
                 <div className="pattern">
                   <img
-                    src="assets/img/about/about-gallery-pattern.png"
+                    src="assets/img/about/man-with-laptop.jpg"
                     alt="Pattern"
+                    width={250}
                   />
                 </div>
               </div>

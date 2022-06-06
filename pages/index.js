@@ -135,7 +135,7 @@ const Index2 = () => {
               </div>
               <div className="col-xl-5 order-xl-1 wow fadeInUp">
                 <div className="about-curved-img">
-                  <img src="assets/img/hero/home1.jpg" alt="Image" />
+                  <img src="assets/img/hero/home1.jpg" className="rounded-lg" alt="Image" />
                 </div>
               </div>
             </div>
@@ -350,11 +350,11 @@ const Index2 = () => {
                 >
                   <i className="fas fa-play" />
                 </a>
-                {/* <img
-                  src="assets/img/video/video-shape.png"
+                <img
+                  src="assets/img/logo.png"
                   alt="Image"
                   className="video-shape"
-                /> */}
+                />
               </div>
             </div>
           </div>
