@@ -38,7 +38,7 @@ const MobileHeader = ({
                 <li>
                   <a href="#">
                     <i className="far fa-map-marker-alt" /> 
-                      Metaverse
+                      4, Raji Aliu Street, Ajao Estate, Isolo Lagos
                   </a>
                 </li>
               </ul>

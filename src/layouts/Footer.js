@@ -120,7 +120,7 @@ const Footer = ({ footerSolidBg }) => {
                       </span>
                       <span className="info">
                         <span className="info-title">Locations</span>
-                        <a href="#">Metaverse</a>
+                        <a href="#">4, Raji Aliu Street, Ajao Estate, Isolo Lagos</a>
                       </span>
                     </li>
                   </ul>
