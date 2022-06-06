@@ -1,7 +1,7 @@
 import Link from "next/dist/client/link";
 import { useState } from "react";
-import Slider from "react-slick";
-import Counter from "../src/components/Counter";
+// import Slider from "react-slick";
+// import Counter from "../src/components/Counter";
 import VideoPopup from "../src/components/VideoPopup";
 import Layout from "../src/layouts/Layout";
 import { imageTextBlockSlider } from "../src/sliderProps";
@@ -96,11 +96,11 @@ const Index2 = () => {
                 </div>
               </form>
             </div>
-            <div className="about-video wow fadeInDown" data-wow-delay="0.2s">
+            {/* <div className="about-video wow fadeInDown" data-wow-delay="0.2s">
               <a href="#" className="video-btn" onClick={() => setVideo(true)}>
                 <i className="fas fa-play" />
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="about-text-area">
@@ -126,20 +126,7 @@ const Index2 = () => {
                      Africans into the tech space.
 
                   </p>
-                  <ul className="check-list mt-30">
-                    <li>
-                      <h5 className="title">Highest Success Rates</h5>
-                      <p>Quis autem vel eum iure reprehenderit quin</p>
-                    </li>
-                    <li>
-                      <h5 className="title">Raise Funds With Crowdfunding</h5>
-                      <p>Voluptate esse quam nihil molestiae consequatur</p>
-                    </li>
-                    <li>
-                      <h5 className="title">Millions in Funding</h5>
-                      <p>Accusan tium dolore dantiumy totam apeam</p>
-                    </li>
-                  </ul>
+                  
                   <Link href="/about">
                     <a className="main-btn btn-dark mt-40">
                       Learn More <i className="far fa-arrow-right" />
@@ -155,13 +142,13 @@ const Index2 = () => {
             </div>
           </div>
         </div>
-        <div className="about-shape">
+        {/* <div className="about-shape">
           <img src="assets/img/footer-bg.jpg" alt="Shape" />
-        </div>
+        </div> */}
       </section>
       {/*====== About Section End ======*/}
       {/*====== Project Section Start ======*/}
-      <section className="project-section project-section-two">
+      {/* <section className="project-section project-section-two">
         <div className="container fluid-extra-padding">
           <div className="common-heading text-center color-version-white mb-30">
             <span className="tagline">
@@ -256,10 +243,10 @@ const Index2 = () => {
               <div className="project-item mt-30">
                 <div
                   className="thumb"
-                  style={{
-                    backgroundImage:
-                      "url(assets/img/project/project-grid-03.jpg)",
-                  }}
+                    style={{
+                      backgroundImage:
+                        "url(assets/img/project/project-grid-03.jpg)",
+                    }}
                 />
                 <div className="content">
                   <div className="cats">
@@ -294,132 +281,11 @@ const Index2 = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-sm-10">
-              <div className="project-item mt-30">
-                <div
-                  className="thumb"
-                  style={{
-                    backgroundImage:
-                      "url(assets/img/project/project-grid-04.jpg)",
-                  }}
-                />
-                <div className="content">
-                  <div className="cats">
-                    <Link href="/project-1">Clothes</Link>
-                  </div>
-                  <div className="author">
-                    <img src="assets/img/author-thumbs/01.jpg" alt="Thumb" />
-                    <Link href="/project-details">James W. Barrows</Link>
-                  </div>
-                  <h5 className="title">
-                    <Link href="/project-details">
-                      <a>
-                        Fundraising For The People And Causes You Care About
-                      </a>
-                    </Link>
-                  </h5>
-                  <div className="project-stats">
-                    <div className="stats-value">
-                      <span className="value-title">
-                        Raised of <span className="value">$59,689</span>
-                      </span>
-                      <span className="stats-percentage">83%</span>
-                    </div>
-                    <div className="stats-bar" data-value={83}>
-                      <div className="bar-line" />
-                    </div>
-                  </div>
-                  <span className="date">
-                    <i className="far fa-calendar-alt" /> 25 February 2021
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-10">
-              <div className="project-item mt-30">
-                <div
-                  className="thumb"
-                  style={{
-                    backgroundImage:
-                      "url(assets/img/project/project-grid-05.jpg)",
-                  }}
-                />
-                <div className="content">
-                  <div className="cats">
-                    <Link href="/project-1">Covid -19</Link>
-                  </div>
-                  <div className="author">
-                    <img src="assets/img/author-thumbs/02.jpg" alt="Thumb" />
-                    <Link href="/project-details">James W. Barrows</Link>
-                  </div>
-                  <h5 className="title">
-                    <Link href="/project-details">
-                      <a>
-                        COVID-19 Vaccine Have Already Begun Introduced Countries
-                      </a>
-                    </Link>
-                  </h5>
-                  <div className="project-stats">
-                    <div className="stats-value">
-                      <span className="value-title">
-                        Raised of <span className="value">$59,689</span>
-                      </span>
-                      <span className="stats-percentage">93%</span>
-                    </div>
-                    <div className="stats-bar" data-value={93}>
-                      <div className="bar-line" />
-                    </div>
-                  </div>
-                  <span className="date">
-                    <i className="far fa-calendar-alt" /> 25 February 2021
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-10">
-              <div className="project-item mt-30">
-                <div
-                  className="thumb"
-                  style={{
-                    backgroundImage:
-                      "url(assets/img/project/project-grid-06.jpg)",
-                  }}
-                />
-                <div className="content">
-                  <div className="cats">
-                    <Link href="/project-1">Business</Link>
-                  </div>
-                  <div className="author">
-                    <img src="assets/img/author-thumbs/03.jpg" alt="Thumb" />
-                    <Link href="/project-details">James W. Barrows</Link>
-                  </div>
-                  <h5 className="title">
-                    <Link href="/project-details">
-                      <a>
-                        Mobile First Is Just Not Goodies Enough Meet Journey
-                      </a>
-                    </Link>
-                  </h5>
-                  <div className="project-stats">
-                    <div className="stats-value">
-                      <span className="value-title">
-                        Raised of <span className="value">$59,689</span>
-                      </span>
-                      <span className="stats-percentage">70%</span>
-                    </div>
-                    <div className="stats-bar" data-value={70}>
-                      <div className="bar-line" />
-                    </div>
-                  </div>
-                  <span className="date">
-                    <i className="far fa-calendar-alt" /> 25 February 2021
-                  </span>
-                </div>
-              </div>
-            </div>
+            
+            
           </div>
         </div>
-      </section>
+      </section> */}
       {/*====== Project Section End ======*/}
       {/*====== Feature Section Start ======*/}
       <section className="feature-section feature-section-one section-gap">
@@ -430,45 +296,42 @@ const Index2 = () => {
                 <div className="common-heading mb-45">
                   <span className="tagline">
                     <i className="fas fa-plus" /> What we do
-                    <span className="heading-shadow-text">Features</span>
+                    <span className="heading-shadow-text">What you get</span>
                   </span>
-                  <h2 className="title">Why Choose us</h2>
+                  <h2 className="title">Why Jion us</h2>
                 </div>
                 {/* Fancy Icon List */}
                 <div className="fancy-icon-list">
                   <div className="fancy-list-item">
                     <div className="icon">
-                      <i className="flaticon-debit-card" />
+                      {/* <i className="flaticon-debit-card" /> */}
                     </div>
                     <div className="content">
-                      <h4 className="title">Fast &amp; Easy Payouts</h4>
+                      <h4 className="title">Structured Curriculum</h4>
                       <p>
-                        Sed ut perspiciatis unde omnis iste natus voluptatem
-                        accusan doloremque
+                      Our curriculum is not just cutting-edge and industry relevant in terms of content, but also student focused in its approach.
                       </p>
                     </div>
                   </div>
                   <div className="fancy-list-item">
                     <div className="icon">
-                      <i className="flaticon-payment" />
+                      {/* <i className="flaticon-payment" /> */}
                     </div>
                     <div className="content">
-                      <h4 className="title">Global Payment Processing</h4>
+                      <h4 className="title">Contibute to open source</h4>
                       <p>
-                        Sed ut perspiciatis unde omnis iste natus voluptatem
-                        accusan doloremque
+                       We introduce members to open source projects they can contribute to, and guide them through the process.
                       </p>
                     </div>
                   </div>
                   <div className="fancy-list-item">
                     <div className="icon">
-                      <i className="flaticon-wallet-1" />
+                      {/* <i className="flaticon-wallet-1" /> */}
                     </div>
                     <div className="content">
-                      <h4 className="title">Many Payment Options</h4>
+                      <h4 className="title">Technical growth</h4>
                       <p>
-                        Sed ut perspiciatis unde omnis iste natus voluptatem
-                        accusan doloremque
+                      We provide you with everything you need to secure a full-time position in the industry.
                       </p>
                     </div>
                   </div>
@@ -485,11 +348,11 @@ const Index2 = () => {
                 >
                   <i className="fas fa-play" />
                 </a>
-                <img
+                {/* <img
                   src="assets/img/video/video-shape.png"
                   alt="Image"
                   className="video-shape"
-                />
+                /> */}
               </div>
             </div>
           </div>
@@ -497,7 +360,7 @@ const Index2 = () => {
       </section>
       {/*====== Feature Section End ======*/}
       {/*====== Counter With Image Text Block Start ======*/}
-      <section className="counter-with-image-text-block">
+      {/* <section className="counter-with-image-text-block">
         <div className="image-text-block-area">
           <div className="container">
             <Slider
@@ -645,7 +508,7 @@ const Index2 = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/*====== Counter With Image Text Block End ======*/}
       {/*====== Testimonials Start ======*/}
       <section className="testimonials-section section-gap">
@@ -654,7 +517,7 @@ const Index2 = () => {
             <div className="col-xl-8 col-lg-10">
               <div className="common-heading text-center mb-30">
                 <span className="tagline">
-                  <i className="fas fa-plus" /> clients Feedback
+                  <i className="fas fa-plus" /> members Feedback
                   <span className="heading-shadow-text">Testimonials</span>
                 </span>
                 <h2 className="title">{`What People's Say`}</h2>
@@ -784,14 +647,13 @@ const Index2 = () => {
       </section>
       {/*====== Testimonials End ======*/}
       {/*====== Partners Section With CTA Start ======*/}
-      <section className="partners-with-cta">
+      <section>
         <div className="cta-boxes">
           <div className="container">
             <div className="row no-gutters justify-content-center">
               <div className="col-lg-6 col-md-10">
                 <div
                   className="cta-box cta-primary-overly"
-                  style={{ backgroundImage: "url(assets/img/cta/02.jpg)" }}
                 >
                   <h2 className="cta-title">Partnership</h2>
                   <p>
@@ -807,7 +669,6 @@ const Index2 = () => {
               <div className="col-lg-6 col-md-10">
                 <div
                   className="cta-box mt-40"
-                  style={{ backgroundImage: "url(assets/img/cta/03.jpg)" }}
                 >
                   <h2 className="cta-title">Donations</h2>
                   <p>
@@ -828,74 +689,74 @@ const Index2 = () => {
             <div className="row partners-logos-two">
               <div className="col-lg-3 col-md-4 col-sm-6">
                 <div className="logo mb-30">
-                  <Link href="/testimonial">
+                  {/* <Link href="/testimonial">
                     <a>
                       <img src="assets/img/partners/01.png" alt="Image" />
                     </a>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
               <div className="col-lg-3 col-md-4 col-sm-6">
                 <div className="logo mb-30">
-                  <Link href="/testimonial">
+                  {/* <Link href="/testimonial">
                     <a>
                       <img src="assets/img/partners/02.png" alt="Image" />
                     </a>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
               <div className="col-lg-3 col-md-4 col-sm-6">
                 <div className="logo mb-30">
-                  <Link href="/testimonial">
+                  {/* <Link href="/testimonial">
                     <a>
                       <img src="assets/img/partners/03.png" alt="Image" />
                     </a>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
               <div className="col-lg-3 col-md-4 col-sm-6">
                 <div className="logo mb-30">
-                  <Link href="/testimonial">
+                  {/* <Link href="/testimonial">
                     <a>
                       <img src="assets/img/partners/04.png" alt="Image" />
                     </a>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
               <div className="col-lg-3 col-md-4 col-sm-6">
                 <div className="logo mb-30">
-                  <Link href="/testimonial">
+                  {/* <Link href="/testimonial">
                     <a>
                       <img src="assets/img/partners/05.png" alt="Image" />
                     </a>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
               <div className="col-lg-3 col-md-4 col-sm-6">
                 <div className="logo mb-30">
-                  <Link href="/testimonial">
+                  {/* <Link href="/testimonial">
                     <a>
                       <img src="assets/img/partners/06.png" alt="Image" />
                     </a>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
               <div className="col-lg-3 col-md-4 col-sm-6">
                 <div className="logo mb-30">
-                  <Link href="/testimonial">
+                  {/* <Link href="/testimonial">
                     <a>
                       <img src="assets/img/partners/07.png" alt="Image" />
                     </a>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
               <div className="col-lg-3 col-md-4 col-sm-6">
                 <div className="logo mb-30">
-                  <Link href="/testimonial">
+                  {/* <Link href="/testimonial">
                     <a>
                       <img src="assets/img/partners/08.png" alt="Image" />
                     </a>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>

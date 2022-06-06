@@ -1,4 +1,4 @@
-import Link from "next/dist/client/link";
+// import Link from "next/dist/client/link";
 // import { Alert } from "react-bootstrap";
 import PageBanner from "../src/components/PageBanner";
 import Layout from "../src/layouts/Layout";
@@ -40,15 +40,13 @@ const Contact = () => {
                   <h2 className="title">Ready to Get More Information</h2>
                 </div>
                 <p>
-                  Sedut perspiciatis unde omnis natus voluptatem accusantium
-                  dolore dantiumy totam apeam eaquey quaventore veritatis
-                  architecto beatae.
+                Learn, create, collaborate and drive forward your IT career with a community designed for your success.
                 </p>
-                <Link href="/events">
+                {/* <Link href="/events">
                   <a className="main-btn mt-35">
                     Get Free Quote <i className="far fa-arrow-right" />
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="col-xl-6 col-lg-7 offset-xl-1">
