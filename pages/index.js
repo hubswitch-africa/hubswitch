@@ -49,7 +49,7 @@ const Index2 = () => {
               data-wow-delay="0.2s"
             >
               <div className="hero-img text-lg-right">
-                <img src="assets/img/hero/home1.jpg" alt="Img" />
+                <img src="assets/img/hero/programming.svg" alt="Img" />
               </div>
             </div>
           </div>
@@ -90,17 +90,16 @@ const Index2 = () => {
                   <Link href="/donate">
                   <button type="submit" className="main-btn btn-white">
                     Donate Now <i className="far fa-arrow-right" />
-                   
                   </button>
                   </Link>
                 </div>
               </form>
             </div>
-            {/* <div className="about-video wow fadeInDown" data-wow-delay="0.2s">
-              <a href="#" className="video-btn" onClick={() => setVideo(true)}>
+            <div className="about-video wow fadeInDown" data-wow-delay="0.2s">
+              {/* <a href="#" className="video-btn" onClick={() => setVideo(true)}>
                 <i className="fas fa-play" />
-              </a>
-            </div> */}
+              </a> */}
+            </div>
           </div>
         </div>
         <div className="about-text-area">
@@ -142,9 +141,9 @@ const Index2 = () => {
             </div>
           </div>
         </div>
-        {/* <div className="about-shape">
-          <img src="assets/img/footer-bg.jpg" alt="Shape" />
-        </div> */}
+        <div className="about-shape">
+          <img src="https://cma.ng/public/front/assets/img/illustrations/feature-illustration.svg" alt="Shape" />
+        </div>
       </section>
       {/*====== About Section End ======*/}
       {/*====== Project Section Start ======*/}
@@ -298,12 +297,13 @@ const Index2 = () => {
                     <i className="fas fa-plus" /> What we do
                     <span className="heading-shadow-text">What you get</span>
                   </span>
-                  <h2 className="title">Why Jion us</h2>
+                  <h2 className="title">Why Join us</h2>
                 </div>
                 {/* Fancy Icon List */}
                 <div className="fancy-icon-list">
                   <div className="fancy-list-item">
                     <div className="icon">
+                      <img src="assets/img/hero/open_source.svg" width={200} />
                       {/* <i className="flaticon-debit-card" /> */}
                     </div>
                     <div className="content">
@@ -315,6 +315,7 @@ const Index2 = () => {
                   </div>
                   <div className="fancy-list-item">
                     <div className="icon">
+                    <img src="assets/img/hero/open_source.svg" width={200} />
                       {/* <i className="flaticon-payment" /> */}
                     </div>
                     <div className="content">
@@ -326,10 +327,11 @@ const Index2 = () => {
                   </div>
                   <div className="fancy-list-item">
                     <div className="icon">
+                    <img src="assets/img/hero/open_source.svg" width={200} />
                       {/* <i className="flaticon-wallet-1" /> */}
                     </div>
                     <div className="content">
-                      <h4 className="title">Technical growth</h4>
+                      <h4 className="title">Career growth</h4>
                       <p>
                       We provide you with everything you need to secure a full-time position in the industry.
                       </p>
@@ -340,7 +342,7 @@ const Index2 = () => {
             </div>
             <div className="col-lg-7 col-md-10">
               <div className="funden-video with-video-shape">
-                <img src="assets/img/video/02.jpg" alt="Image" />
+                <img src="assets/img/team/20210915_140628-1.jpg" alt="Image" />
                 <a
                   href="#"
                   className="video-popup"
