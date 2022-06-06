@@ -23,7 +23,6 @@ const Contact = () => {
                   <h2 className="title">Drive forward your IT career with us.</h2>
                 </div>
                 <p>
-                {/* Learn, create, collaborate and drive forward your IT career with a community designed for your success. */}
                 </p>
                 <Link href="/faq">
                   <a className="main-btn mt-35">
