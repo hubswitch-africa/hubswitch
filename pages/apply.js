@@ -1,52 +1,35 @@
-// import Link from "next/dist/client/link";
-// import { Alert } from "react-bootstrap";
+import Link from "next/dist/client/link";
 import PageBanner from "../src/components/PageBanner";
 import Layout from "../src/layouts/Layout";
 
 const Contact = () => {
-
-  const Success = () => {
-    return(
-      alert("Submited!")
-    )
-  };
-
-
   return (
     <Layout>
       <PageBanner pageName="Apply" />
       <section className="apply-section section-gap-extra-bottom">
         <div className="container">
         
-          {/* Contact Info End */}
-              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScsqWPI7sV5s6adHE0rf4aODmEK-gpUZ-gLp7lxoV5WUpU0eQ/viewform?embedded=true" width="100%" height="2100" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-          {/* <div className="apply-from-area mt-1">
-            <div className="row no-gutters">
-
-            </div>
-          </div> */}
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScsqWPI7sV5s6adHE0rf4aODmEK-gpUZ-gLp7lxoV5WUpU0eQ/viewform?embedded=true" width="100%" height="2100" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 
-
-        {/* Contact Info Start */}
         <div className="row align-items-center justify-content-center mt-5">
             <div className="col-lx-4 col-lg-5 col-sm-10">
               <div className="apply-info-text mb-md-70">
                 <div className="common-heading mb-30">
                   <span className="tagline">
-                    <i className="fas fa-plus" /> Donate Projects
-                    <span className="heading-shadow-text">Donate</span>
+                    <i className="fas fa-plus" />  a community designed for your success
+                    <span className="heading-shadow-text">Hubswitch</span>
                   </span>
-                  <h2 className="title">Ready to Get More Information</h2>
+                  <h2 className="title">Drive forward your IT career with us.</h2>
                 </div>
                 <p>
-                Learn, create, collaborate and drive forward your IT career with a community designed for your success.
+                {/* Learn, create, collaborate and drive forward your IT career with a community designed for your success. */}
                 </p>
-                {/* <Link href="/events">
+                <Link href="/faq">
                   <a className="main-btn mt-35">
-                    Get Free Quote <i className="far fa-arrow-right" />
+                    Read our FAQ <i className="far fa-arrow-right" />
                   </a>
-                </Link> */}
+                </Link>
               </div>
             </div>
             <div className="col-xl-6 col-lg-7 offset-xl-1">
