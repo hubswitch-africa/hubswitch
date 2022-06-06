@@ -31,7 +31,7 @@ const MobileHeader = ({
             <div className="col-auto">
               <ul className="apply-info">
                 <li>
-                  <a href="#">
+                  <a href="mailto:hubswitchafrica@gmail.com">
                     <i className="far fa-envelope" /> hubswitchafrica@gmail.com
                   </a>
                 </li>
@@ -107,18 +107,14 @@ const MobileHeader = ({
         </div>
         <ul className="panel-menu" id="menu">
 
+        <li><Link href="/">Home</Link></li>
+        <li><Link href="/about">About</Link></li>
         <li>
-                  <Link href="/">
-                    Home
-                  </Link> </li>
-
-
-          <li>
-            <Link href="/team">Team</Link>
-          </li>
-          <li>
-            <Link href="/donate">Donate</Link>
-          </li>
+          <Link href="/team">Team</Link>
+        </li>
+        <li>
+          <Link href="/donate">Donate</Link>
+        </li>
           
           {/* <li>
             <a href="#">
