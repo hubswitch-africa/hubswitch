@@ -38,7 +38,9 @@ const Footer = ({ footerSolidBg }) => {
               <div className="col-xl-3 col-lg-4 col-md-6">
                 <div className="widget about-widget">
                   <div className="footer-logo">
+                    <Link href="/">
                     <img src="assets/img/logo2-trans.png" alt="Hubswitch" />
+                    </Link>
                   </div>
                   <p>
                     A haven for beautiful minds ⚡
@@ -55,7 +57,7 @@ const Footer = ({ footerSolidBg }) => {
                 </div>
               </div>
               <div className="col-lg-2 col-md-5 col-sm-6">
-                <div className="widget nav-widget">
+                <div className="widget nav-widget d-none">
                   <h4 className="widget-title">Our Projects</h4>
                   <ul>
                     <li>
@@ -75,7 +77,7 @@ const Footer = ({ footerSolidBg }) => {
               </div>
               <div className="col-lg-2 col-md-6 col-sm-6">
                 <div className="widget nav-widget">
-                  <h4 className="widget-title">Other</h4>
+                  <h4 className="widget-title">Pages</h4>
                   <ul>
                     <li>
                       <Link href="/team">The Team</Link>
