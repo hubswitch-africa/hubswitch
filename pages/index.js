@@ -532,10 +532,7 @@ const Index2 = () => {
                   </div>
                   <div>
                     <p className="testimonial-desc">
-                      {`"Sed perspiciat unde omnis iste natus error voluptatem
-                      accusantium dolorem audantium totam aperiam eaque quae
-                      abillo inventore veritatis Quis autem vel eum iure
-                      reprehenderit qui in ea voluptate"`}
+                      {`"Couple of weeks running into months has been quite great diving into the tech spaces. I know now a bit of where and what i want to be."`}
                     </p>
                     <div className="author-info">
                       <h5 className="name">Howard A. Guest</h5>
@@ -571,10 +568,7 @@ const Index2 = () => {
                   </div>
                   <div>
                     <p className="testimonial-desc">
-                      {`"On the other hands denounce with righteous indignation
-                      and dislike men who are so beguiled and demoralized by the
-                      charms of pleasure of the moment, so blinded by desire,
-                      that they cannot foresee"`}
+                      {`"For now, i'm not where i want to be but i'm definitely not where i was couple of months back."`}
                     </p>
                     <div className="author-info">
                       <h5 className="name">Randall S. Rosenow</h5>
@@ -610,10 +604,7 @@ const Index2 = () => {
                   </div>
                   <div>
                     <p className="testimonial-desc">
-                      {`"At vero eoset accusamus et iusto odio dignissimos ducimus
-                      blandit praesentium voluptatum deleniti atque corrupti
-                      quos dolores et quastiy molestias excepturi sint occaecati
-                      cupiditate"`}
+                      {`"The courses are usually nice because it's building the student up and also self explanatory."`}
                     </p>
                     <div className="author-info">
                       <h5 className="name">Christopher D. Greer</h5>
