@@ -7,7 +7,7 @@ const Faq = () => {
   return (
     <Layout>
       <PageBanner pageName="FAQ" />
-      <section className="faq-section section-gap">
+      <section className="faq-section section-gap mb-5">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-8 col-lg-10">
@@ -1063,92 +1063,6 @@ const Faq = () => {
         </div>
       </section>
       {/*====== FAQ Area End ======*/}
-      {/*====== Feature Section Start ======*/}
-      <section className="feature-section primary-soft-bg section-gap">
-        <div className="container">
-          <div className="common-heading text-center mb-30">
-            <span className="tagline">
-              <i className="fas fa-plus" /> What We Do
-              <span className="heading-shadow-text">Features</span>
-            </span>
-            <h2 className="title">Why choose us</h2>
-          </div>
-          <div className="row icon-boxes justify-content-center">
-            <div
-              className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp"
-              data-wow-delay="0.1s"
-            >
-              <div className="icon-box mt-30">
-                <div className="icon">
-                  <i className="flaticon-debit-card" />
-                </div>
-                <h5 className="title">Fast &amp; Easy Payouts</h5>
-                <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium totam
-                </p>
-                <Link href="/project-1">
-                  <a className="link">
-                    <i className="far fa-arrow-right" />
-                  </a>
-                </Link>
-                <span className="box-index">01</span>
-                <div className="box-img">
-                  <img src="assets/img/icon-box-bg.jpg" alt="image" />
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp"
-              data-wow-delay="0.2s"
-            >
-              <div className="icon-box mt-30">
-                <div className="icon">
-                  <i className="flaticon-payment" />
-                </div>
-                <h5 className="title">Global Payment Processing</h5>
-                <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium totam
-                </p>
-                <Link href="/project-2">
-                  <a className="link">
-                    <i className="far fa-arrow-right" />
-                  </a>
-                </Link>
-                <span className="box-index">02</span>
-                <div className="box-img">
-                  <img src="assets/img/icon-box-bg.jpg" alt="image" />
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp"
-              data-wow-delay="0.3s"
-            >
-              <div className="icon-box mt-30">
-                <div className="icon">
-                  <i className="flaticon-wallet-1" />
-                </div>
-                <h5 className="title">Many Payment Options</h5>
-                <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium totam
-                </p>
-                <Link href="/project-1">
-                  <a className="link">
-                    <i className="far fa-arrow-right" />
-                  </a>
-                </Link>
-                <span className="box-index">03</span>
-                <div className="box-img">
-                  <img src="assets/img/icon-box-bg.jpg" alt="image" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
     
     </Layout>
   );
