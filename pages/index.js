@@ -530,7 +530,7 @@ const Index2 = () => {
                   data-wow-delay="0s"
                 >
                   <div className="author-img">
-                    <img src="assets/img/author-thumbs/07.png" alt="Thumb" />
+                    <img src="assets/img/testimonials/ebenezer.png" alt="Thumb" />
                   </div>
                   <div>
                     <p className="testimonial-desc">
@@ -566,7 +566,7 @@ const Index2 = () => {
                   data-wow-delay="0.1s"
                 >
                   <div className="author-img">
-                    <img src="assets/img/author-thumbs/08.png" alt="Thumb" />
+                    <img src="assets/img/testimonials/amaka.jpeg" alt="Thumb" />
                   </div>
                   <div>
                     <p className="testimonial-desc">
