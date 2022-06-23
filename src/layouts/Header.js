@@ -39,18 +39,23 @@ const Header = ({ transparentTop, transparentHeader, topSecondaryBg }) => {
             <div className="col-auto d-none d-md-block">
               <ul className="social-icons">
                 <li>
-                  <a href="#">
+                  <a href="https://twitter.com/hubswitch_open">
                     <i className="fab fa-twitter" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://bit.ly/hsa-yt">
                     <i className="fab fa-youtube" />
                   </a>
                 </li>
                 <li>
                   <a href="#">
                     <i className="fab fa-instagram" />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/hubswitch-africa">
+                    <i className="fab fa-github" />
                   </a>
                 </li>
               </ul>
