@@ -602,7 +602,7 @@ const Index2 = () => {
                   data-wow-delay="0.2s"
                 >
                   <div className="author-img">
-                    <img src="assets/img/author-thumbs/09.png" alt="Thumb" />
+                    <img src="assets/img/testimonials/ope.png" alt="Thumb" />
                   </div>
                   <div>
                     <p className="testimonial-desc">
